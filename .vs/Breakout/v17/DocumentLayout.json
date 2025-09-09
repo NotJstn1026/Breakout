@@ -1,0 +1,180 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\SAE_Uni\\C\u002B\u002B\\Breakout\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|D:\\SAE_Uni\\C\u002B\u002B\\Breakout\\Breakout\\GameManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|solutionrelative:Breakout\\GameManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|D:\\SAE_Uni\\C\u002B\u002B\\Breakout\\Breakout\\GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|solutionrelative:Breakout\\GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|D:\\SAE_Uni\\C\u002B\u002B\\Breakout\\Breakout\\Brick.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|solutionrelative:Breakout\\Brick.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|D:\\SAE_Uni\\C\u002B\u002B\\Breakout\\Breakout\\Ball.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|solutionrelative:Breakout\\Ball.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|D:\\SAE_Uni\\C\u002B\u002B\\Breakout\\Breakout\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|solutionrelative:Breakout\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|D:\\SAE_Uni\\C\u002B\u002B\\Breakout\\Breakout\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|solutionrelative:Breakout\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|D:\\SAE_Uni\\C\u002B\u002B\\Breakout\\Breakout\\Ball.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|solutionrelative:Breakout\\Ball.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|D:\\SAE_Uni\\C\u002B\u002B\\Breakout\\Breakout\\Brick.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|solutionrelative:Breakout\\Brick.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|D:\\SAE_Uni\\C\u002B\u002B\\Breakout\\Breakout\\Breakout.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|solutionrelative:Breakout\\Breakout.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 189,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameManager.h",
+              "DocumentMoniker": "D:\\SAE_Uni\\C\u002B\u002B\\Breakout\\Breakout\\GameManager.h",
+              "RelativeDocumentMoniker": "Breakout\\GameManager.h",
+              "ToolTip": "D:\\SAE_Uni\\C\u002B\u002B\\Breakout\\Breakout\\GameManager.h",
+              "RelativeToolTip": "Breakout\\GameManager.h",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAswBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-09-08T22:00:10.605Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Ball.h",
+              "DocumentMoniker": "D:\\SAE_Uni\\C\u002B\u002B\\Breakout\\Breakout\\Ball.h",
+              "RelativeDocumentMoniker": "Breakout\\Ball.h",
+              "ToolTip": "D:\\SAE_Uni\\C\u002B\u002B\\Breakout\\Breakout\\Ball.h",
+              "RelativeToolTip": "Breakout\\Ball.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-09-09T07:56:18.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Brick.h",
+              "DocumentMoniker": "D:\\SAE_Uni\\C\u002B\u002B\\Breakout\\Breakout\\Brick.h",
+              "RelativeDocumentMoniker": "Breakout\\Brick.h",
+              "ToolTip": "D:\\SAE_Uni\\C\u002B\u002B\\Breakout\\Breakout\\Brick.h",
+              "RelativeToolTip": "Breakout\\Brick.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-09-09T07:56:05.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Player.h",
+              "DocumentMoniker": "D:\\SAE_Uni\\C\u002B\u002B\\Breakout\\Breakout\\Player.h",
+              "RelativeDocumentMoniker": "Breakout\\Player.h",
+              "ToolTip": "D:\\SAE_Uni\\C\u002B\u002B\\Breakout\\Breakout\\Player.h",
+              "RelativeToolTip": "Breakout\\Player.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-09-08T22:16:30.375Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 211,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Player.cpp",
+              "DocumentMoniker": "D:\\SAE_Uni\\C\u002B\u002B\\Breakout\\Breakout\\Player.cpp",
+              "RelativeDocumentMoniker": "Breakout\\Player.cpp",
+              "ToolTip": "D:\\SAE_Uni\\C\u002B\u002B\\Breakout\\Breakout\\Player.cpp",
+              "RelativeToolTip": "Breakout\\Player.cpp",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAMwBEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-09T08:16:01.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Brick.cpp",
+              "DocumentMoniker": "D:\\SAE_Uni\\C\u002B\u002B\\Breakout\\Breakout\\Brick.cpp",
+              "RelativeDocumentMoniker": "Breakout\\Brick.cpp",
+              "ToolTip": "D:\\SAE_Uni\\C\u002B\u002B\\Breakout\\Breakout\\Brick.cpp",
+              "RelativeToolTip": "Breakout\\Brick.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-09T08:16:00.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Ball.cpp",
+              "DocumentMoniker": "D:\\SAE_Uni\\C\u002B\u002B\\Breakout\\Breakout\\Ball.cpp",
+              "RelativeDocumentMoniker": "Breakout\\Ball.cpp",
+              "ToolTip": "D:\\SAE_Uni\\C\u002B\u002B\\Breakout\\Breakout\\Ball.cpp",
+              "RelativeToolTip": "Breakout\\Ball.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-09T08:15:57.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameManager.cpp",
+              "DocumentMoniker": "D:\\SAE_Uni\\C\u002B\u002B\\Breakout\\Breakout\\GameManager.cpp",
+              "RelativeDocumentMoniker": "Breakout\\GameManager.cpp",
+              "ToolTip": "D:\\SAE_Uni\\C\u002B\u002B\\Breakout\\Breakout\\GameManager.cpp",
+              "RelativeToolTip": "Breakout\\GameManager.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-08T22:06:26.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Breakout.cpp",
+              "DocumentMoniker": "D:\\SAE_Uni\\C\u002B\u002B\\Breakout\\Breakout\\Breakout.cpp",
+              "RelativeDocumentMoniker": "Breakout\\Breakout.cpp",
+              "ToolTip": "D:\\SAE_Uni\\C\u002B\u002B\\Breakout\\Breakout\\Breakout.cpp",
+              "RelativeToolTip": "Breakout\\Breakout.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-08T21:55:27.699Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
