@@ -7,10 +7,16 @@
 class GameManager
 {
 public:
-	void InitGame();
 	void StartGame();
-	void EndGame();
+
+	void DrawGame();
+
 private:
+	void EndGame();
+	void InitGame();
+	void SetBricks(Vector2& brickSize);
+	void Update();
+	
 	const int M_WIDTH = 300;
 	const int M_HEIGHT = 300;
 	const int M_TARGET_FPS = 60;
@@ -21,6 +27,8 @@ private:
 	const int M_BRICKS_PER_LINE = 10;
 	const int M_BRICK_HEIGHT = 40;
 	const int M_BRICK_SPACE = M_BRICK_HEIGHT + 10;
+
+	bool m_gameOver = false;
 
 	Player* m_player = {};
 	Brick** m_bricks = {};
