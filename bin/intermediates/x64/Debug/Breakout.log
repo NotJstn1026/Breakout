@@ -1,0 +1,12 @@
+﻿  Ball.cpp
+  Breakout.cpp
+  Brick.cpp
+  GameManager.cpp
+D:\SAE_Uni\C++\Breakout\Breakout\src\GameManager.cpp(8,41): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+D:\SAE_Uni\C++\Breakout\Breakout\src\GameManager.cpp(8,41): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\SAE_Uni\C++\Breakout\Breakout\src\GameManager.cpp(8,62): warning C4838: conversion from 'const int' to 'float' requires a narrowing conversion
+D:\SAE_Uni\C++\Breakout\Breakout\src\GameManager.cpp(8,62): warning C4244: 'initializing': conversion from 'const int' to 'float', possible loss of data
+D:\SAE_Uni\C++\Breakout\Breakout\src\GameManager.cpp(25,82): error C2065: 'initialDownPosition': undeclared identifier
+D:\SAE_Uni\C++\Breakout\Breakout\src\GameManager.cpp(27,3): error C2143: syntax error: missing ';' before '}'
+  Player.cpp
+  Generating Code...
