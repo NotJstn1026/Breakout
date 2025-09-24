@@ -1,13 +1,14 @@
-﻿  Ball.cpp
+﻿  IDrawable.cpp
+  Ball.cpp
+D:\SAE_Uni\C++\Breakout\Breakout\src\Ball.h(3,10): error C1083: Cannot open include file: 'IDrawable.h': No such file or directory
+  (compiling source file 'src/Ball.cpp')
+  
   Breakout.cpp
-  Brick.cpp
+D:\SAE_Uni\C++\Breakout\Breakout\src\Ball.h(3,10): error C1083: Cannot open include file: 'IDrawable.h': No such file or directory
+  (compiling source file 'src/Breakout.cpp')
+  
   GameManager.cpp
-D:\SAE_Uni\C++\Breakout\Breakout\src\GameManager.cpp(8,41): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
-D:\SAE_Uni\C++\Breakout\Breakout\src\GameManager.cpp(8,41): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-D:\SAE_Uni\C++\Breakout\Breakout\src\GameManager.cpp(8,62): warning C4838: conversion from 'const int' to 'float' requires a narrowing conversion
-D:\SAE_Uni\C++\Breakout\Breakout\src\GameManager.cpp(8,62): warning C4244: 'initializing': conversion from 'const int' to 'float', possible loss of data
-  Player.cpp
-  Running Code Analysis for C/C++...
+D:\SAE_Uni\C++\Breakout\Breakout\src\Ball.h(3,10): error C1083: Cannot open include file: 'IDrawable.h': No such file or directory
+  (compiling source file 'src/GameManager.cpp')
+  
   Generating Code...
-GameManager.obj : error LNK2019: unresolved external symbol "private: void __cdecl GameManager::Update(void)" (?Update@GameManager@@AEAAXXZ) referenced in function "public: void __cdecl GameManager::StartGame(void)" (?StartGame@GameManager@@QEAAXXZ)
-D:\SAE_Uni\C++\Breakout\bin\x64\Debug\Breakout.exe : fatal error LNK1120: 1 unresolved externals

@@ -139,6 +139,7 @@
     <ClCompile Include="src\Player.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\IDrawable.h" />
     <ClInclude Include="src\Ball.h" />
     <ClInclude Include="src\Brick.h" />
     <ClInclude Include="src\GameManager.h" />

@@ -1,5 +1,6 @@
 #pragma once
 #include <iostream>
+#include <memory>
 #include "Player.h"
 #include "Brick.h"
 #include "Ball.h"
@@ -17,8 +18,8 @@ private:
 	void SetBricks(Vector2& brickSize);
 	void Update();
 	
-	const int M_WIDTH = 300;
-	const int M_HEIGHT = 300;
+	const int M_WIDTH = 700;
+	const int M_HEIGHT = 500;
 	const int M_TARGET_FPS = 60;
 	const char* M_GAME_NAME = "Breakout";
 

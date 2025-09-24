@@ -1,12 +1,14 @@
 #pragma once
 #include <raylib.h>
+#include "IDrawable.h"
 
-class Ball
+class Ball : public IDrawable
 {
 public:
 	Ball(Vector2 a_startPostion);
 	Vector2 GetBallPostion() const;
 	float GetBallRadius() const;
+	void Draw() override;
 private:
 	const float M_START_RADIUS = 7;
 

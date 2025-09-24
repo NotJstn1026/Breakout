@@ -1,11 +1,14 @@
 #pragma once
 #include <raylib.h>
+#include "IDrawable.h"
+
 class Player
 {
 public: 
-	Player(Vector2 a_playerSize);
+	Player();
 	int GetCurrentLife() const;
 	Vector2 GetPostion() const;
+	Vector2 GetSize() const;
 	void UpadtePlayer();
 
 private:
