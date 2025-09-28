@@ -33,3 +33,8 @@ bool Brick::GetBrickState() const
 {
 	return m_state;
 }
+
+void Brick::Draw()
+{
+	DrawRectangle(m_position.x, m_position.y, m_brickSize.x, m_brickSize.y, WHITE);
+}

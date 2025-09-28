@@ -1,38 +1,49 @@
 #include "GameManager.h"
 #include "raylib.h"
+#include <iostream>
 
 void GameManager::InitGame()
 {
 	InitWindow(M_WIDTH, M_HEIGHT, M_GAME_NAME);
 	SetTargetFPS(M_TARGET_FPS);
 
-	Vector2 brickSize = { GetScreenWidth() / M_BRICKS_PER_LINE, M_BRICK_HEIGHT };
+	float totalHorizontalSpace = (M_BRICKS_PER_LINE + 1) * M_BRICK_SPACE;
+	Vector2 brickSize = { (M_WIDTH - totalHorizontalSpace) / M_BRICKS_PER_LINE, M_BRICK_HEIGHT };
 
-	m_player = new Player();
-	
+	m_player = std::make_shared<Player>();
+	m_drawableObjects.push_back(m_player);
+
 	float ballPostionY = m_player->GetPostion().y - m_player->GetPostion().y / 2;
-	m_ball = new Ball(Vector2{ m_player->GetPostion().x, ballPostionY });
+
+	std::shared_ptr<Ball> ballPtr(new Ball(ballPostionY));
+	m_drawableObjects.push_back(ballPtr);
 
 	SetBricks(brickSize);
 }
 
 void GameManager::SetBricks(Vector2& brickSize)
 {
-	m_bricks = new Brick * [M_LINES_OF_BRICKS];
+	float currentHeight = M_BRICK_SPACE;
+	float currentWidth = M_BRICK_SPACE;
 
 	for (int y = 0; y < M_LINES_OF_BRICKS; y++)
 	{
-		m_bricks[y] = new Brick[M_BRICKS_PER_LINE]{};
-	}
+		currentWidth = M_BRICK_SPACE;
 
-	for (int x = 0; x < M_LINES_OF_BRICKS; x++)
-	{
-		for (int y = 0; y < M_BRICKS_PER_LINE; y++)
+		for (int x = 0; x < M_BRICKS_PER_LINE; x++)
 		{
-			Vector2 brickPostion = { y * brickSize.x + brickSize.x / 2, y * brickSize.y + M_BRICK_SPACE };
-			m_bricks[x][y].SetBrickPostionAndSize(brickPostion, brickSize);
-			m_bricks[x][y].SetBrickState(true);
+			std::shared_ptr<Brick> brickSharedPtr(new Brick());
+
+			Vector2 brickPostion = { currentWidth, currentHeight };
+
+
+			brickSharedPtr->SetBrickPostionAndSize(brickPostion, brickSize);
+			brickSharedPtr->SetBrickState(true);
+
+			m_drawableObjects.push_back(std::move(brickSharedPtr));
+			currentWidth += brickSize.x + M_BRICK_SPACE;
 		}
+		currentHeight += brickSize.y + M_BRICK_SPACE;
 	}
 }
 
@@ -54,21 +65,12 @@ void GameManager::DrawGame()
 
 	if (!m_gameOver)
 	{
-		//Draw Player Rectangle
-		DrawRectangle(m_player->GetPostion().x, m_player->GetPostion().y, m_player->GetSize().x, m_player->GetSize().y, WHITE);
-
-		//Draw Ball
-		DrawCircle(m_ball->GetBallPostion().x, m_ball->GetBallPostion().y, m_ball->GetBallRadius(), WHITE);
-
-		////Draw Bricks
-		//for (int x = 0; x < M_LINES_OF_BRICKS; x++)
-		//{
-		//	for (int y = 0; y < M_BRICKS_PER_LINE; y++)
-		//	{
-		//		Brick currentBrick = m_bricks[x][y];
-		//		
-		//	}
-		//}
+		int counter = 0;
+		for (size_t i = 0; i < m_drawableObjects.size(); i++)
+		{
+			m_drawableObjects[i]->Draw();
+			counter++;
+		}
 	}
 
 	EndDrawing();
@@ -89,6 +91,5 @@ void GameManager::Update()
 
 void GameManager::EndGame()
 {
-	delete m_player;
-	delete[] m_bricks;
+
 }

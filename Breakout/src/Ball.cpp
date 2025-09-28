@@ -1,8 +1,9 @@
 #include "Ball.h"
 
-Ball::Ball(Vector2 a_startPostion)
+Ball::Ball(float a_startPostionX)
 {
-	m_postion = a_startPostion;
+	Vector2 spawnPostion = { GetScreenWidth() * 0.5f, a_startPostionX };
+	m_postion = spawnPostion;
 	m_radius = M_START_RADIUS;
 	m_speed = Vector2{ 0,0 };
 }

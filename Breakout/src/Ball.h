@@ -5,7 +5,7 @@
 class Ball : public IDrawable
 {
 public:
-	Ball(Vector2 a_startPostion);
+	Ball(float a_startPostion);
 	Vector2 GetBallPostion() const;
 	float GetBallRadius() const;
 	void Draw() override;

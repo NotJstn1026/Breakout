@@ -1,7 +1,8 @@
 #pragma once
 #include <raylib.h>
+#include "IDrawable.h"
 
-class Brick
+class Brick : public IDrawable
 {
 public:
 	Brick();
@@ -12,6 +13,8 @@ public:
 	Vector2 GetBrickPostion() const;
 	bool GetBrickState() const;
 
+	//Interface
+	void Draw() override;
 private:
 	Vector2 m_position = {};
 	Vector2 m_brickSize = {};

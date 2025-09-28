@@ -2,13 +2,14 @@
 #include <raylib.h>
 #include "IDrawable.h"
 
-class Player
+class Player : public IDrawable
 {
-public: 
+public:
 	Player();
 	int GetCurrentLife() const;
 	Vector2 GetPostion() const;
 	Vector2 GetSize() const;
+	void Draw()override;
 	void UpadtePlayer();
 
 private:
@@ -17,7 +18,7 @@ private:
 
 	void Movement();
 
-	Vector2 m_postion = {};
+	Vector2 m_position = {};
 	Vector2 m_size = {};
 	int m_life = M_MAXLIFE;
 };

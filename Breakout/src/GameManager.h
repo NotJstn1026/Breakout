@@ -4,38 +4,40 @@
 #include "Player.h"
 #include "Brick.h"
 #include "Ball.h"
+#include "IDrawable.h"
+#include <vector>
 
 class GameManager
 {
 public:
 	void StartGame();
 
-	void DrawGame();
-
 private:
-	void EndGame();
 	void InitGame();
 	void SetBricks(Vector2& brickSize);
+	void DrawGame();
 	void Update();
-	
-	const int M_WIDTH = 700;
-	const int M_HEIGHT = 500;
-	const int M_TARGET_FPS = 60;
+	void EndGame();
+
+	const float M_WIDTH = 700;
+	const float M_HEIGHT = 500;
+	const float M_TARGET_FPS = 60;
 	const char* M_GAME_NAME = "Breakout";
 
 	//Bricks
 	const int M_LINES_OF_BRICKS = 2;
 	const int M_BRICKS_PER_LINE = 10;
-	const int M_BRICK_HEIGHT = 40;
-	const int M_BRICK_SPACE = M_BRICK_HEIGHT + 10;
+	const int M_BRICK_HEIGHT = 20;
+	const int M_BRICK_SPACE = 6;
 
 	bool m_gameOver = false;
 
-	Player* m_player = {};
-	Brick** m_bricks = {};
-	Ball* m_ball = {};
+	std::vector<std::shared_ptr<IDrawable>> m_drawableObjects {};
+
+	std::vector<Brick> m_bricks {};
+
+	std::shared_ptr<Player> m_player = nullptr;
 
 	int m_playerScore = 0;
-
 };
 
