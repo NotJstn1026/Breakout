@@ -32,11 +32,11 @@ private:
 
 	bool m_gameOver = false;
 
-	std::vector<std::shared_ptr<IDrawable>> m_drawableObjects {};
+	std::vector<IDrawable*> m_drawableObjects{};
 
 	std::vector<Brick> m_bricks {};
 
-	std::shared_ptr<Player> m_player = nullptr;
+	Player* m_player = nullptr;
 
 	Ball* m_ball = nullptr;
 

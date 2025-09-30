@@ -26,11 +26,13 @@ void Player::Draw()
 
 void Player::Movement(MovementDirection a_movementDirection)
 {
-	float directionMultiplyer = 1;
-	if (a_movementDirection == MovementDirection::Left)
+	float newPostionX{0};
+	if (MovementDirection::Left == a_movementDirection)
 	{
-		directionMultiplyer = -1;
+		m_position.x -= m_speed;
 	}
-	Vector2 newPostion = { (m_position.x + m_speed) * directionMultiplyer, m_position.y };
-	m_position = newPostion;
+	else
+	{
+		m_position.x += m_speed;
+	}
 }

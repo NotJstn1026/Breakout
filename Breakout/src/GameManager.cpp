@@ -11,15 +11,15 @@ void GameManager::InitGame()
 	float totalHorizontalSpace = (M_BRICKS_PER_LINE + 1) * M_BRICK_SPACE;
 	Vector2 brickSize = { (M_WIDTH - totalHorizontalSpace) / M_BRICKS_PER_LINE, M_BRICK_HEIGHT };
 
-	m_player = std::make_shared<Player>();
+	m_player = new Player();
+
 	m_drawableObjects.push_back(m_player);
 
 	float ballPostionY = m_player->GetPostion().y - m_player->GetPostion().y / 2;
 
-	std::shared_ptr<Ball> ballPtr(new Ball(ballPostionY));
-	m_ball = ballPtr.get();
+	m_ball = new Ball(ballPostionY);
 
-	m_drawableObjects.push_back(ballPtr);
+	m_drawableObjects.push_back(m_ball);
 
 	SetBricks(brickSize);
 }
@@ -35,15 +35,15 @@ void GameManager::SetBricks(Vector2& brickSize)
 
 		for (int x = 0; x < M_BRICKS_PER_LINE; x++)
 		{
-			std::shared_ptr<Brick> brickSharedPtr(new Brick());
+			Brick* brickPtr(new Brick());
 
 			Vector2 brickPostion = { currentWidth, currentHeight };
 
 
-			brickSharedPtr->SetBrickPostionAndSize(brickPostion, brickSize);
-			brickSharedPtr->SetBrickState(true);
+			brickPtr->SetBrickPostionAndSize(brickPostion, brickSize);
+			brickPtr->SetBrickState(true);
 
-			m_drawableObjects.push_back(std::move(brickSharedPtr));
+			m_drawableObjects.push_back(brickPtr);
 			currentWidth += brickSize.x + M_BRICK_SPACE;
 		}
 		currentHeight += brickSize.y + M_BRICK_SPACE;
@@ -91,14 +91,14 @@ void GameManager::Update()
 
 	
 
-	if (IsKeyPressed(KEY_A) || IsKeyPressed(KEY_LEFT))
+	if (IsKeyDown(KEY_A) || IsKeyDown(KEY_LEFT))
 	{
-		m_player.get()->Movement(MovementDirection::Left);
+		m_player->Movement(MovementDirection::Left);
 	}
 
-	if (IsKeyPressed(KEY_D) || IsKeyPressed(KEY_RIGHT))
+	if (IsKeyDown(KEY_D) || IsKeyDown(KEY_RIGHT))
 	{
-		m_player.get()->Movement(MovementDirection::Right);
+		m_player->Movement(MovementDirection::Right);
 	}
 
 }
