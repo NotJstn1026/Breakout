@@ -25,8 +25,8 @@ private:
 	const char* M_GAME_NAME = "Breakout";
 
 	//Bricks
-	const int M_LINES_OF_BRICKS = 2;
-	const int M_BRICKS_PER_LINE = 10;
+	const int M_LINES_OF_BRICKS = 3;
+	const int M_BRICKS_PER_LINE = 8;
 	const int M_BRICK_HEIGHT = 20;
 	const int M_BRICK_SPACE = 6;
 
@@ -37,6 +37,8 @@ private:
 	std::vector<Brick> m_bricks {};
 
 	std::shared_ptr<Player> m_player = nullptr;
+
+	Ball* m_ball = nullptr;
 
 	int m_playerScore = 0;
 };

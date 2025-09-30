@@ -1,25 +1,22 @@
 #pragma once
 #include <raylib.h>
 #include "IDrawable.h"
+#include "MovementDircetion.h"
 
 class Player : public IDrawable
 {
 public:
 	Player();
-	int GetCurrentLife() const;
 	Vector2 GetPostion() const;
 	Vector2 GetSize() const;
 	void Draw()override;
-	void UpadtePlayer();
+	void Movement(MovementDirection a_movementDirection);
 
 private:
-	const int M_MAXLIFE = 5;
 	const int M_HALFSCREEN = 2;
+	
 
-	void Movement();
-
+	float m_speed = 5;
 	Vector2 m_position = {};
 	Vector2 m_size = {};
-	int m_life = M_MAXLIFE;
 };
-

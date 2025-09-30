@@ -18,6 +18,8 @@ float Ball::GetBallRadius() const
 	return m_radius;
 }
 
+
+
 void Ball::Draw()
 {
 	DrawCircle(m_postion.x, m_postion.y, m_radius, WHITE);

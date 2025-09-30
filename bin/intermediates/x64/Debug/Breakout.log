@@ -1,13 +1,20 @@
-﻿  GameManager.cpp
-D:\SAE_Uni\C++\Breakout\Breakout\src\GameManager.cpp(7,22): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
-D:\SAE_Uni\C++\Breakout\Breakout\src\GameManager.cpp(7,13): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
-D:\SAE_Uni\C++\Breakout\Breakout\src\GameManager.cpp(8,15): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
-D:\SAE_Uni\C++\Breakout\Breakout\src\GameManager.cpp(10,29): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-D:\SAE_Uni\C++\Breakout\Breakout\src\GameManager.cpp(11,78): warning C4838: conversion from 'const int' to 'float' requires a narrowing conversion
-D:\SAE_Uni\C++\Breakout\Breakout\src\GameManager.cpp(11,78): warning C4244: 'initializing': conversion from 'const int' to 'float', possible loss of data
-D:\SAE_Uni\C++\Breakout\Breakout\src\GameManager.cpp(26,22): warning C4244: 'initializing': conversion from 'const int' to 'float', possible loss of data
-D:\SAE_Uni\C++\Breakout\Breakout\src\GameManager.cpp(27,21): warning C4244: 'initializing': conversion from 'const int' to 'float', possible loss of data
-D:\SAE_Uni\C++\Breakout\Breakout\src\GameManager.cpp(31,18): warning C4244: '=': conversion from 'const int' to 'float', possible loss of data
+﻿  Breakout.cpp
+  GameManager.cpp
+D:\SAE_Uni\C++\Breakout\Breakout\src\GameManager.cpp(8,22): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+D:\SAE_Uni\C++\Breakout\Breakout\src\GameManager.cpp(8,13): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+D:\SAE_Uni\C++\Breakout\Breakout\src\GameManager.cpp(9,15): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+D:\SAE_Uni\C++\Breakout\Breakout\src\GameManager.cpp(11,29): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\SAE_Uni\C++\Breakout\Breakout\src\GameManager.cpp(12,78): warning C4838: conversion from 'const int' to 'float' requires a narrowing conversion
+D:\SAE_Uni\C++\Breakout\Breakout\src\GameManager.cpp(12,78): warning C4244: 'initializing': conversion from 'const int' to 'float', possible loss of data
+D:\SAE_Uni\C++\Breakout\Breakout\src\GameManager.cpp(27,22): warning C4244: 'initializing': conversion from 'const int' to 'float', possible loss of data
+D:\SAE_Uni\C++\Breakout\Breakout\src\GameManager.cpp(28,21): warning C4244: 'initializing': conversion from 'const int' to 'float', possible loss of data
+D:\SAE_Uni\C++\Breakout\Breakout\src\GameManager.cpp(32,18): warning C4244: '=': conversion from 'const int' to 'float', possible loss of data
+  Player.cpp
+D:\SAE_Uni\C++\Breakout\Breakout\src\Player.cpp(24,60): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\SAE_Uni\C++\Breakout\Breakout\src\Player.cpp(24,50): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\SAE_Uni\C++\Breakout\Breakout\src\Player.cpp(24,40): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\SAE_Uni\C++\Breakout\Breakout\src\Player.cpp(24,26): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Generating Code...
   Breakout.vcxproj -> D:\SAE_Uni\C++\Breakout\bin\x64\Debug\Breakout.exe
   Der Befehl "pwsh.exe" ist entweder falsch geschrieben oder
   konnte nicht gefunden werden.

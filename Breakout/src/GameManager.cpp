@@ -1,6 +1,7 @@
+#include <iostream>
 #include "GameManager.h"
 #include "raylib.h"
-#include <iostream>
+#include "MovementDircetion.h"
 
 void GameManager::InitGame()
 {
@@ -16,6 +17,8 @@ void GameManager::InitGame()
 	float ballPostionY = m_player->GetPostion().y - m_player->GetPostion().y / 2;
 
 	std::shared_ptr<Ball> ballPtr(new Ball(ballPostionY));
+	m_ball = ballPtr.get();
+
 	m_drawableObjects.push_back(ballPtr);
 
 	SetBricks(brickSize);
@@ -55,7 +58,6 @@ void GameManager::StartGame()
 		Update();
 		DrawGame();
 	}
-
 }
 
 void GameManager::DrawGame()
@@ -86,6 +88,18 @@ void GameManager::Update()
 		return;
 	}
 	//Game Logic
+
+	
+
+	if (IsKeyPressed(KEY_A) || IsKeyPressed(KEY_LEFT))
+	{
+		m_player.get()->Movement(MovementDirection::Left);
+	}
+
+	if (IsKeyPressed(KEY_D) || IsKeyPressed(KEY_RIGHT))
+	{
+		m_player.get()->Movement(MovementDirection::Right);
+	}
 
 }
 

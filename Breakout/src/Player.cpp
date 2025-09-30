@@ -9,11 +9,6 @@ Player::Player()
 	m_position = Vector2{ startPostionX - m_size.x * 0.5f, startHeight };
 }
 
-int Player::GetCurrentLife() const
-{
-	return m_life;
-}
-
 Vector2 Player::GetPostion() const
 {
 	return m_position;
@@ -29,12 +24,13 @@ void Player::Draw()
 	DrawRectangle(m_position.x, m_position.y, m_size.x, m_size.y, WHITE);
 }
 
-void Player::UpadtePlayer()
+void Player::Movement(MovementDirection a_movementDirection)
 {
-	Movement();
-}
-
-void Player::Movement()
-{
-
+	float directionMultiplyer = 1;
+	if (a_movementDirection == MovementDirection::Left)
+	{
+		directionMultiplyer = -1;
+	}
+	Vector2 newPostion = { (m_position.x + m_speed) * directionMultiplyer, m_position.y };
+	m_position = newPostion;
 }
