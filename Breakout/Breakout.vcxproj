@@ -139,6 +139,8 @@
     <ClCompile Include="src\Player.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\MinMaxValue.h" />
+    <ClInclude Include="src\RandomNumberGenerator.h" />
     <ClInclude Include="src\MovementDircetion.h" />
     <ClInclude Include="src\IDrawable.h" />
     <ClInclude Include="src\Ball.h" />

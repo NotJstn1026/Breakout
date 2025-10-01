@@ -1,6 +1,11 @@
 #include "Brick.h"
 
-Brick::Brick()
+Brick::Brick(GameManager* a_gameManager)
+{
+	m_gameManager = a_gameManager;
+}
+
+Brick::~Brick()
 {
 }
 

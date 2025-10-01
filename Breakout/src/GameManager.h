@@ -1,6 +1,5 @@
 #pragma once
 #include <iostream>
-#include <memory>
 #include "Player.h"
 #include "Brick.h"
 #include "Ball.h"
@@ -11,10 +10,12 @@ class GameManager
 {
 public:
 	void StartGame();
-
+	GameManager();
+	~GameManager();
 private:
 	void InitGame();
 	void SetBricks(Vector2& brickSize);
+	void AddBall();
 	void DrawGame();
 	void Update();
 	void EndGame();
@@ -34,11 +35,9 @@ private:
 
 	std::vector<IDrawable*> m_drawableObjects{};
 
-	std::vector<Brick> m_bricks {};
+	Ball* m_ball = nullptr;
 
 	Player* m_player = nullptr;
-
-	Ball* m_ball = nullptr;
 
 	int m_playerScore = 0;
 };

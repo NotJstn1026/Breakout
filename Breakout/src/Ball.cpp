@@ -8,6 +8,10 @@ Ball::Ball(float a_startPostionX)
 	m_speed = Vector2{ 0,0 };
 }
 
+Ball::~Ball()
+{
+}
+
 Vector2 Ball::GetBallPostion() const
 {
 	return m_postion;
@@ -18,7 +22,13 @@ float Ball::GetBallRadius() const
 	return m_radius;
 }
 
+void Ball::Update()
+{
+	if (true)
+	{
 
+	}
+}
 
 void Ball::Draw()
 {

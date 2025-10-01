@@ -11,15 +11,12 @@ void GameManager::InitGame()
 	float totalHorizontalSpace = (M_BRICKS_PER_LINE + 1) * M_BRICK_SPACE;
 	Vector2 brickSize = { (M_WIDTH - totalHorizontalSpace) / M_BRICKS_PER_LINE, M_BRICK_HEIGHT };
 
+
 	m_player = new Player();
 
 	m_drawableObjects.push_back(m_player);
 
-	float ballPostionY = m_player->GetPostion().y - m_player->GetPostion().y / 2;
-
-	m_ball = new Ball(ballPostionY);
-
-	m_drawableObjects.push_back(m_ball);
+	AddBall();
 
 	SetBricks(brickSize);
 }
@@ -35,7 +32,7 @@ void GameManager::SetBricks(Vector2& brickSize)
 
 		for (int x = 0; x < M_BRICKS_PER_LINE; x++)
 		{
-			Brick* brickPtr(new Brick());
+			Brick* brickPtr(new Brick(this));
 
 			Vector2 brickPostion = { currentWidth, currentHeight };
 
@@ -44,10 +41,20 @@ void GameManager::SetBricks(Vector2& brickSize)
 			brickPtr->SetBrickState(true);
 
 			m_drawableObjects.push_back(brickPtr);
+
 			currentWidth += brickSize.x + M_BRICK_SPACE;
 		}
 		currentHeight += brickSize.y + M_BRICK_SPACE;
 	}
+}
+
+void GameManager::AddBall()
+{
+	float ballPostionY = m_player->GetPostion().y - m_player->GetPostion().y / 2;
+
+	m_ball = new Ball(ballPostionY);
+
+	m_drawableObjects.push_back(m_ball);
 }
 
 void GameManager::StartGame()
@@ -58,6 +65,15 @@ void GameManager::StartGame()
 		Update();
 		DrawGame();
 	}
+}
+
+GameManager::GameManager()
+{
+}
+
+GameManager::~GameManager()
+{
+
 }
 
 void GameManager::DrawGame()
@@ -87,19 +103,11 @@ void GameManager::Update()
 		CloseWindow();
 		return;
 	}
+
 	//Game Logic
-
 	
+	m_player->Update();
 
-	if (IsKeyDown(KEY_A) || IsKeyDown(KEY_LEFT))
-	{
-		m_player->Movement(MovementDirection::Left);
-	}
-
-	if (IsKeyDown(KEY_D) || IsKeyDown(KEY_RIGHT))
-	{
-		m_player->Movement(MovementDirection::Right);
-	}
 
 }
 

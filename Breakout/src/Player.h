@@ -7,12 +7,17 @@ class Player : public IDrawable
 {
 public:
 	Player();
+	~Player();
 	Vector2 GetPostion() const;
 	Vector2 GetSize() const;
 	void Draw()override;
-	void Movement(MovementDirection a_movementDirection);
+	void Update();
+	
 
 private:
+
+	void Movement(MovementDirection a_movementDirection);
+
 	const int M_HALFSCREEN = 2;
 	
 

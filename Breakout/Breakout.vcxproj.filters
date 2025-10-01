@@ -50,5 +50,11 @@
     <ClInclude Include="src\MovementDircetion.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\RandomNumberGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MinMaxValue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
