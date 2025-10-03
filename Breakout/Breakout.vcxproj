@@ -142,7 +142,7 @@
     <ClInclude Include="src\MinMaxValue.h" />
     <ClInclude Include="src\RandomNumberGenerator.h" />
     <ClInclude Include="src\MovementDircetion.h" />
-    <ClInclude Include="src\IDrawable.h" />
+    <ClInclude Include="src\IGameObject.h" />
     <ClInclude Include="src\Ball.h" />
     <ClInclude Include="src\Brick.h" />
     <ClInclude Include="src\GameManager.h" />

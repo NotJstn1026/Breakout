@@ -3,6 +3,9 @@
 #include "raylib.h"
 #include "MovementDircetion.h"
 
+/// <summary>
+/// Inintiales the window and game.
+/// </summary>
 void GameManager::InitGame()
 {
 	InitWindow(M_WIDTH, M_HEIGHT, M_GAME_NAME);
@@ -14,13 +17,17 @@ void GameManager::InitGame()
 
 	m_player = new Player();
 
-	m_drawableObjects.push_back(m_player);
+	m_gameObjects.push_back(m_player);
 
 	AddBall();
 
 	SetBricks(brickSize);
 }
 
+/// <summary>
+/// 
+/// </summary>
+/// <param name="brickSize"></param>
 void GameManager::SetBricks(Vector2& brickSize)
 {
 	float currentHeight = M_BRICK_SPACE;
@@ -40,7 +47,7 @@ void GameManager::SetBricks(Vector2& brickSize)
 			brickPtr->SetBrickPostionAndSize(brickPostion, brickSize);
 			brickPtr->SetBrickState(true);
 
-			m_drawableObjects.push_back(brickPtr);
+			m_gameObjects.push_back(brickPtr);
 
 			currentWidth += brickSize.x + M_BRICK_SPACE;
 		}
@@ -51,10 +58,10 @@ void GameManager::SetBricks(Vector2& brickSize)
 void GameManager::AddBall()
 {
 	float ballPostionY = m_player->GetPostion().y - m_player->GetPostion().y / 2;
+	Ball* newBall = new Ball(ballPostionY);
+	m_balls.push_back(newBall);
 
-	m_ball = new Ball(ballPostionY);
-
-	m_drawableObjects.push_back(m_ball);
+	m_gameObjects.push_back(newBall);
 }
 
 void GameManager::StartGame()
@@ -84,10 +91,13 @@ void GameManager::DrawGame()
 	if (!m_gameOver)
 	{
 		int counter = 0;
-		for (size_t i = 0; i < m_drawableObjects.size(); i++)
+		for (size_t i = 0; i < m_gameObjects.size(); i++)
 		{
-			m_drawableObjects[i]->Draw();
-			counter++;
+			if (m_gameObjects[i] != nullptr)
+			{
+				m_gameObjects[i]->Draw();
+				counter++;
+			}
 		}
 	}
 
@@ -105,13 +115,29 @@ void GameManager::Update()
 	}
 
 	//Game Logic
-	
-	m_player->Update();
 
+	m_player->Update();
+	for (size_t i = 0; i < m_balls.size(); i++)
+	{
+		m_balls[i]->Update();
+	}
 
 }
 
 void GameManager::EndGame()
 {
+	delete m_player;
+	m_player = nullptr;
 
+	for (size_t i = 0; i < m_gameObjects.size(); i++)
+	{
+		delete m_gameObjects[i];
+		m_gameObjects[i] = nullptr;
+	}
+
+	for (size_t i = 0; i < m_balls.size(); i++)
+	{
+		delete m_balls[i];
+		m_balls[i] = nullptr;
+	}
 }

@@ -1,6 +1,6 @@
 #pragma once
 #include "RandomNumberGenerator.h"
-template <typename T>
+template <typename T> //Need to specify the classes can put in
 struct MinMaxValue
 {
 	T MinValue = {};
@@ -8,13 +8,9 @@ struct MinMaxValue
 
 	MinMaxValue(T min, T max) : MinValue(min), MaxValue(max) {};
 
-	T GetRandomValue();
+	T GetRandomValue() const
+	{
+		RandomNumberGenerator<T> randomGenerator{};
+		return randomGenerator.GenerateRandomNumber(MinValue, MaxValue);
+	}
 };
-
-template<typename T>
-inline T MinMaxValue<T>::GetRandomValue()
-{
-	RandomNumberGenerator<float> randomGenerator{};
-	randomGenerator.GenerateRandomNumber(MinValue, MaxValue);
-	return T();
-}

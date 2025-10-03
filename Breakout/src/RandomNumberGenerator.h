@@ -21,7 +21,7 @@ public:
             return distrib(m_engine);
         }
         else {
-            // Wird zur Kompilierungszeit einen Fehler werfen
+            // Throws a exception when unsupported data type
             static_assert(std::is_integral_v<T> || std::is_floating_point_v<T>, "Unsupported data type for random number generation.");
             return T{};
         }

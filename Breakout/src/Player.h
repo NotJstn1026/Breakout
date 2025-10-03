@@ -1,9 +1,9 @@
 #pragma once
 #include <raylib.h>
-#include "IDrawable.h"
+#include "IGameObject.h"
 #include "MovementDircetion.h"
 
-class Player : public IDrawable
+class Player : public IGameObject
 {
 public:
 	Player();
@@ -11,6 +11,7 @@ public:
 	Vector2 GetPostion() const;
 	Vector2 GetSize() const;
 	void Draw()override;
+
 	void Update();
 	
 

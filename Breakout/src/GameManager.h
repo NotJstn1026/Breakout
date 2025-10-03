@@ -3,7 +3,7 @@
 #include "Player.h"
 #include "Brick.h"
 #include "Ball.h"
-#include "IDrawable.h"
+#include "IGameObject.h"
 #include <vector>
 
 class GameManager
@@ -33,9 +33,9 @@ private:
 
 	bool m_gameOver = false;
 
-	std::vector<IDrawable*> m_drawableObjects{};
+	std::vector<IGameObject*> m_gameObjects{};
 
-	Ball* m_ball = nullptr;
+	std::vector <Ball*> m_balls = {};
 
 	Player* m_player = nullptr;
 

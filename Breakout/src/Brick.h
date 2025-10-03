@@ -1,10 +1,11 @@
 #pragma once
 #include <raylib.h>
-#include "IDrawable.h"
+#include "IGameObject.h"
+
 
 class GameManager;
 
-class Brick : public IDrawable
+class Brick : public IGameObject
 {
 public:
 	Brick(GameManager* a_gameManager);
