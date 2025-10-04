@@ -1,16 +1,18 @@
 #include "Ball.h"
+#include "Brick.h"
+#include "Player.h"
 
 /// <summary>
 /// Constructs a Ball object at a specified vertical position, initializing its position, radius, and speed.
 /// </summary>
 /// <param name="a_startPostionX">The vertical (Y-axis) position where the ball will be spawned.</param>
-Ball::Ball(float a_startPostionX, std::vector<IGameObject*> a_gameObjects)
+Ball::Ball(float a_startPostionX, std::vector<GameObject*> a_gameObjectList, ShapeType a_ballShape) : GameObject(a_ballShape)
 {
 	Vector2 spawnPostion = { GetScreenWidth() * 0.5f, a_startPostionX };
 	m_postion = spawnPostion;
 	m_radius = M_START_RADIUS;
 	m_speed = Vector2{ M_RANDOM_VALUES.GetRandomValue(),M_VERTICAL_SPEED };
-	m_gameObjects = a_gameObjects;
+	m_gameObjects = a_gameObjectList;
 }
 
 Ball::~Ball()
@@ -71,7 +73,44 @@ void Ball::Draw()
 	DrawCircle(m_postion.x, m_postion.y, m_radius, WHITE);
 }
 
+
+/// <summary>
+/// 
+/// </summary>
 void Ball::HitCheck()
 {
+	for (size_t i = 0; i < m_gameObjects.size(); i++)
+	{
+		if (m_gameObjects[i] == nullptr)
+			continue;
 
+		if (m_gameObjects[i]->GetShape() != ShapeType::Rectangle)
+			continue;
+
+		if (Player* player = dynamic_cast<Player*>(m_gameObjects[i]))
+		{
+			Rectangle rec = player->ReturnRectangle();
+			if (CheckCollisionCircleRec(m_postion, m_radius, rec))
+			{
+				m_speed.y *= -1;
+				break;
+			}
+		}
+
+
+		if (Brick* currentBrick = dynamic_cast<Brick*>(m_gameObjects[i]))
+		{
+			Rectangle rec = currentBrick->ReturnRectangle();
+			if (CheckCollisionCircleRec(m_postion, m_radius, rec))
+			{
+				currentBrick->DestroyBrick();
+				m_speed.y *= -1;
+				if (m_postion.y >= currentBrick->GetBrickPostion().y)
+				{
+					m_speed.x *= 1;
+				}
+				break;
+			}
+		}
+	}
 }

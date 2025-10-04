@@ -1,12 +1,13 @@
 #include "Brick.h"
+#include "GameManager.h"
 
 /// <summary>
 /// Constructs a Brick object and initializes it with the specified GameManager.
 /// </summary>
 /// <param name="a_gameManager">Pointer to the GameManager instance to associate with the Brick.</param>
-Brick::Brick(GameManager* a_gameManager)
+Brick::Brick(GameManager* a_gameManager, ShapeType a_brickShape) : RectangleGameObject(a_brickShape), m_gameManager(a_gameManager)
 {
-	m_gameManager = a_gameManager;
+	
 }
 
 Brick::~Brick()
@@ -28,7 +29,7 @@ void Brick::SetBrickPosition(Vector2 a_position)
 /// <param name="a_size">The new size of the brick as a Vector2.</param>
 void Brick::SetBrickSize(Vector2 a_size)
 {
-	m_brickSize = a_size;
+	m_size = a_size;
 }
 
 /// <summary>
@@ -42,14 +43,6 @@ void Brick::SetBrickPostionAndSize(Vector2 a_postion, Vector2 a_size)
 	SetBrickSize(a_size);
 }
 
-/// <summary>
-/// Sets the state of the brick to active or inactive.
-/// </summary>
-/// <param name="a_active">True to set the brick as active; false to set it as inactive.</param>
-void Brick::SetBrickState(bool a_active)
-{
-	m_state = a_active;
-}
 
 /// <summary>
 /// Returns the position of the brick as a Vector2.
@@ -60,13 +53,9 @@ Vector2 Brick::GetBrickPostion() const
 	return m_position;
 }
 
-/// <summary>
-/// Returns the current state of the brick.
-/// </summary>
-/// <returns>True if the brick is in the active state; otherwise, false.</returns>
-bool Brick::GetBrickState() const
+void Brick::DestroyBrick()
 {
-	return m_state;
+	m_gameManager->DestroyBrick(this);
 }
 
 /// <summary>
@@ -74,5 +63,5 @@ bool Brick::GetBrickState() const
 /// </summary>
 void Brick::Draw()
 {
-	DrawRectangle(m_position.x, m_position.y, m_brickSize.x, m_brickSize.y, WHITE);
+	DrawRectangle(m_position.x, m_position.y, m_size.x, m_size.y, WHITE);
 }

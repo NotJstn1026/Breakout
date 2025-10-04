@@ -1,12 +1,14 @@
 #pragma once
 #include <raylib.h>
-#include "IGameObject.h"
+#include "GameObject.h"
 #include "MinMaxValue.h"
 
-class Ball : public IGameObject
+
+
+class Ball : public GameObject
 {
 public:
-	Ball(float a_startPostion, std::vector<IGameObject*> a_gameObjects);
+	Ball(float a_startPostion, std::vector<GameObject*> a_gameObjects, ShapeType a_ballShape);
 	~Ball();
 	Vector2 GetBallPostion() const;
 	float GetBallRadius() const;
@@ -22,7 +24,7 @@ private:
 	void OutOfBoundsCheck();
 	void HitCheck();
 
-	std::vector<IGameObject*> m_gameObjects = {};
+	std::vector<GameObject*> m_gameObjects = {};
 	Vector2 m_postion = {};
 	Vector2 m_speed = {};
 	float m_radius = M_START_RADIUS;

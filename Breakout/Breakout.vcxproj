@@ -142,11 +142,13 @@
     <ClInclude Include="src\MinMaxValue.h" />
     <ClInclude Include="src\RandomNumberGenerator.h" />
     <ClInclude Include="src\MovementDircetion.h" />
-    <ClInclude Include="src\IGameObject.h" />
+    <ClInclude Include="src\GameObject.h" />
     <ClInclude Include="src\Ball.h" />
     <ClInclude Include="src\Brick.h" />
     <ClInclude Include="src\GameManager.h" />
     <ClInclude Include="src\Player.h" />
+    <ClInclude Include="src\RectangleGameObject.h" />
+    <ClInclude Include="src\ShapeType.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

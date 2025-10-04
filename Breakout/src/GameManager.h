@@ -3,18 +3,19 @@
 #include "Player.h"
 #include "Brick.h"
 #include "Ball.h"
-#include "IGameObject.h"
+#include "GameObject.h"
 #include <vector>
 
 class GameManager
 {
 public:
 	void StartGame();
+	void DestroyBrick(Brick* a_brickPtr);
 	GameManager();
 	~GameManager();
 private:
 	void InitGame();
-	void SetBricks(Vector2& brickSize);
+	void SetBricks(Vector2& a_brickSize);
 	void AddBall();
 	void DrawGame();
 	void Update();
@@ -33,7 +34,7 @@ private:
 
 	bool m_gameOver = false;
 
-	std::vector<IGameObject*> m_gameObjects{};
+	std::vector<GameObject*> m_gameObjects{};
 
 	std::vector <Ball*> m_balls = {};
 

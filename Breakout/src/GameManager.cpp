@@ -14,21 +14,20 @@ void GameManager::InitGame()
 	float totalHorizontalSpace = (M_BRICKS_PER_LINE + 1) * M_BRICK_SPACE;
 	Vector2 brickSize = { (M_WIDTH - totalHorizontalSpace) / M_BRICKS_PER_LINE, M_BRICK_HEIGHT };
 
-
-	m_player = new Player();
+	m_player = new Player(ShapeType::Rectangle);
 
 	m_gameObjects.push_back(m_player);
 
-	AddBall();
-
 	SetBricks(brickSize);
+
+	AddBall();
 }
 
 /// <summary>
 /// 
 /// </summary>
 /// <param name="brickSize"></param>
-void GameManager::SetBricks(Vector2& brickSize)
+void GameManager::SetBricks(Vector2& a_brickSize)
 {
 	float currentHeight = M_BRICK_SPACE;
 	float currentWidth = M_BRICK_SPACE;
@@ -39,26 +38,25 @@ void GameManager::SetBricks(Vector2& brickSize)
 
 		for (int x = 0; x < M_BRICKS_PER_LINE; x++)
 		{
-			Brick* brickPtr(new Brick(this));
+			Brick* brickPtr(new Brick(this, ShapeType::Rectangle));
 
 			Vector2 brickPostion = { currentWidth, currentHeight };
 
 
-			brickPtr->SetBrickPostionAndSize(brickPostion, brickSize);
-			brickPtr->SetBrickState(true);
+			brickPtr->SetBrickPostionAndSize(brickPostion, a_brickSize);
 
 			m_gameObjects.push_back(brickPtr);
 
-			currentWidth += brickSize.x + M_BRICK_SPACE;
+			currentWidth += a_brickSize.x + M_BRICK_SPACE;
 		}
-		currentHeight += brickSize.y + M_BRICK_SPACE;
+		currentHeight += a_brickSize.y + M_BRICK_SPACE;
 	}
 }
 
 void GameManager::AddBall()
 {
 	float ballPostionY = m_player->GetPostion().y - m_player->GetPostion().y / 2;
-	Ball* newBall = new Ball(ballPostionY);
+	Ball* newBall = new Ball(ballPostionY, m_gameObjects, ShapeType::Circle);
 	m_balls.push_back(newBall);
 
 	m_gameObjects.push_back(newBall);
@@ -71,6 +69,20 @@ void GameManager::StartGame()
 	{
 		Update();
 		DrawGame();
+	}
+}
+
+void GameManager::DestroyBrick(Brick* a_brickPtr)
+{
+	for (size_t i = 0; i < m_gameObjects.size(); i++)
+	{
+		if (a_brickPtr == m_gameObjects[i])
+		{
+			delete m_gameObjects[i];
+			m_gameObjects[i] = nullptr;
+			m_gameObjects.erase(m_gameObjects.begin() + i);
+			break;
+		}
 	}
 }
 
@@ -115,6 +127,8 @@ void GameManager::Update()
 	}
 
 	//Game Logic
+
+
 
 	m_player->Update();
 	for (size_t i = 0; i < m_balls.size(); i++)

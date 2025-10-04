@@ -44,7 +44,7 @@
     <ClInclude Include="src\Ball.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\IGameObject.h">
+    <ClInclude Include="src\GameObject.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="src\MovementDircetion.h">
@@ -54,6 +54,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="src\MinMaxValue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ShapeType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RectangleGameObject.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
