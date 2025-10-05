@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|solutionrelative:Breakout\\src\\Ball.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|C:\\GamesProgramming\\Breakout\\Breakout\\src\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|solutionrelative:Breakout\\src\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|C:\\GamesProgramming\\Breakout\\Breakout\\src\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|solutionrelative:Breakout\\src\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -37,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|C:\\GamesProgramming\\Breakout\\Breakout\\src\\GameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|solutionrelative:Breakout\\src\\GameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|C:\\GamesProgramming\\Breakout\\Breakout\\src\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|solutionrelative:Breakout\\src\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|C:\\GamesProgramming\\Breakout\\Breakout\\src\\MovementDircetion.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -78,7 +78,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "RectangleGameObject.h",
               "DocumentMoniker": "C:\\GamesProgramming\\Breakout\\Breakout\\src\\RectangleGameObject.h",
               "RelativeDocumentMoniker": "Breakout\\src\\RectangleGameObject.h",
@@ -138,7 +138,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "GameObject.h",
               "DocumentMoniker": "C:\\GamesProgramming\\Breakout\\Breakout\\src\\GameObject.h",
               "RelativeDocumentMoniker": "Breakout\\src\\GameObject.h",
@@ -150,7 +150,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "GameManager.h",
               "DocumentMoniker": "C:\\GamesProgramming\\Breakout\\Breakout\\src\\GameManager.h",
               "RelativeDocumentMoniker": "Breakout\\src\\GameManager.h",
@@ -162,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Brick.h",
               "DocumentMoniker": "C:\\GamesProgramming\\Breakout\\Breakout\\src\\Brick.h",
               "RelativeDocumentMoniker": "Breakout\\src\\Brick.h",
@@ -174,7 +174,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Ball.h",
               "DocumentMoniker": "C:\\GamesProgramming\\Breakout\\Breakout\\src\\Ball.h",
               "RelativeDocumentMoniker": "Breakout\\src\\Ball.h",
@@ -186,7 +186,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Player.h",
               "DocumentMoniker": "C:\\GamesProgramming\\Breakout\\Breakout\\src\\Player.h",
               "RelativeDocumentMoniker": "Breakout\\src\\Player.h",
@@ -218,7 +218,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "GameManager.cpp",
               "DocumentMoniker": "C:\\GamesProgramming\\Breakout\\Breakout\\src\\GameManager.cpp",
               "RelativeDocumentMoniker": "Breakout\\src\\GameManager.cpp",
@@ -237,14 +237,14 @@
               "RelativeDocumentMoniker": "Breakout\\src\\Ball.cpp",
               "ToolTip": "C:\\GamesProgramming\\Breakout\\Breakout\\src\\Ball.cpp*",
               "RelativeToolTip": "Breakout\\src\\Ball.cpp*",
-              "ViewState": "AgIAAF0AAAAAAAAAAAASwGIAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAGAAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-09-09T12:50:27.346Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Brick.cpp",
               "DocumentMoniker": "C:\\GamesProgramming\\Breakout\\Breakout\\src\\Brick.cpp",
               "RelativeDocumentMoniker": "Breakout\\src\\Brick.cpp",
@@ -256,15 +256,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
               "Title": "Player.cpp",
               "DocumentMoniker": "C:\\GamesProgramming\\Breakout\\Breakout\\src\\Player.cpp",
               "RelativeDocumentMoniker": "Breakout\\src\\Player.cpp",
-              "ToolTip": "C:\\GamesProgramming\\Breakout\\Breakout\\src\\Player.cpp",
-              "RelativeToolTip": "Breakout\\src\\Player.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA9AAAAAAAAAA==",
+              "ToolTip": "C:\\GamesProgramming\\Breakout\\Breakout\\src\\Player.cpp*",
+              "RelativeToolTip": "Breakout\\src\\Player.cpp*",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAACgAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-09-09T12:07:49.035Z"
+              "WhenOpened": "2025-09-09T12:07:49.035Z",
+              "EditorCaption": ""
             }
           ]
         }

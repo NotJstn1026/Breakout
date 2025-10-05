@@ -93,10 +93,8 @@ void Ball::HitCheck()
 			if (CheckCollisionCircleRec(m_postion, m_radius, rec))
 			{
 				m_speed.y *= -1;
-
-				float xxx = player->GetPostion().x;
-				std::cout << xxx << "<=" << m_postion.x << std::endl;
-				if ( player->GetPostion().x >= m_postion.x)
+				float playerCenterPostionX = player->GetPostion().x + player->GetSize().x * 0.5f;
+				if (playerCenterPostionX <= m_postion.x)
 				{
 					MinMaxValue<float> randomX = { 0.5f,3.0f };
 					float randomValueX = randomX.GetRandomValue();
