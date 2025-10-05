@@ -94,18 +94,32 @@ void Ball::HitCheck()
 			{
 				m_speed.y *= -1;
 				float playerCenterPostionX = player->GetPostion().x + player->GetSize().x * 0.5f;
-				if (playerCenterPostionX <= m_postion.x)
+
+				float newSpeedX = m_postion.x - playerCenterPostionX;
+				newSpeedX *= M_SPEED_FACTOR;
+
+				if (newSpeedX > M_MAX_SPEED.x)
 				{
-					MinMaxValue<float> randomX = { 0.5f,3.0f };
-					float randomValueX = randomX.GetRandomValue();
-					m_speed.x = randomValueX;
+					newSpeedX = M_MAX_SPEED.x;
 				}
-				else
+				if (newSpeedX < -M_MAX_SPEED.x)
 				{
-					MinMaxValue<float> randomX = { -3.0f,-0.5f };
-					float randomValueX = randomX.GetRandomValue();
-					m_speed.x = randomValueX;
+					newSpeedX = -M_MAX_SPEED.x;
 				}
+
+				m_speed.x = newSpeedX;
+				//if (playerCenterPostionX <= m_postion.x)
+				//{
+				//	MinMaxValue<float> randomX = { 0.5f,3.0f };
+				//	float randomValueX = randomX.GetRandomValue();
+				//	m_speed.x = randomValueX;
+				//}
+				//else
+				//{
+				//	MinMaxValue<float> randomX = { -3.0f,-0.5f };
+				//	float randomValueX = randomX.GetRandomValue();
+				//	m_speed.x = randomValueX;
+				//}
 				break;
 			}
 		}
