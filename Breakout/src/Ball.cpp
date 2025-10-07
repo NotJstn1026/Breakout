@@ -1,41 +1,26 @@
 #include "Ball.h"
 #include "Brick.h"
 #include "Player.h"
+#include "GameManager.h"
 
 /// <summary>
 /// Constructs a Ball object at a specified vertical position, initializing its position, radius, and speed.
 /// </summary>
 /// <param name="a_startPostionX">The vertical (Y-axis) position where the ball will be spawned.</param>
-Ball::Ball(float a_startPostionX, std::vector<GameObject*> a_gameObjectList, ShapeType a_ballShape) : GameObject(a_ballShape)
+Ball::Ball(float a_startPostionX, std::vector<GameObject*> a_gameObjectList, GameManager* a_gameManager, ShapeType a_ballShape) : GameObject(a_ballShape)
 {
 	Vector2 spawnPostion = { GetScreenWidth() * 0.5f, a_startPostionX };
 	m_postion = spawnPostion;
 	m_radius = M_START_RADIUS;
 	m_speed = Vector2{ M_RANDOM_VALUES.GetRandomValue(),M_VERTICAL_SPEED };
 	m_gameObjects = a_gameObjectList;
+	m_gameManager = a_gameManager;
 }
 
 Ball::~Ball()
 {
 }
 
-/// <summary>
-/// Returns the current position of the ball.
-/// </summary>
-/// <returns>The position of the ball as a Vector2 object.</returns>
-Vector2 Ball::GetBallPostion() const
-{
-	return m_postion;
-}
-
-/// <summary>
-/// Retrieves the radius of the ball.
-/// </summary>
-/// <returns>The radius of the ball as a float.</returns>
-float Ball::GetBallRadius() const
-{
-	return m_radius;
-}
 
 /// <summary>
 /// Updates the ball´s postion and checks for bounces.
@@ -45,9 +30,9 @@ void Ball::Update()
 	m_postion.x += m_speed.x;
 	m_postion.y += m_speed.y;
 
-	OutOfBoundsCheck();
-
 	HitCheck();
+
+	OutOfBoundsCheck();
 }
 
 /// <summary>
@@ -59,9 +44,17 @@ void Ball::OutOfBoundsCheck()
 	{
 		m_speed.x *= -1;
 	}
-	if ((m_postion.y - m_radius) <= 0 || (m_postion.y + m_radius) >= GetScreenHeight())
+
+	// Hitting top of the screen
+	if ((m_postion.y - m_radius) <= 0)
 	{
 		m_speed.y *= -1;
+	}
+
+	// Hitting bottom of the screen
+	if ((m_postion.y + m_radius) >= GetScreenHeight())
+	{
+		m_gameManager->DestroyBall(this);
 	}
 }
 
@@ -108,6 +101,7 @@ void Ball::HitCheck()
 				}
 
 				m_speed.x = newSpeedX;
+
 				//if (playerCenterPostionX <= m_postion.x)
 				//{
 				//	MinMaxValue<float> randomX = { 0.5f,3.0f };

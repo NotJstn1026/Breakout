@@ -139,9 +139,10 @@
     <ClCompile Include="src\Player.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\GAMESCENE.h" />
     <ClInclude Include="src\MinMaxValue.h" />
     <ClInclude Include="src\RandomNumberGenerator.h" />
-    <ClInclude Include="src\MovementDircetion.h" />
+    <ClInclude Include="src\MOVEMENTDIRECTION.h" />
     <ClInclude Include="src\GameObject.h" />
     <ClInclude Include="src\Ball.h" />
     <ClInclude Include="src\Brick.h" />

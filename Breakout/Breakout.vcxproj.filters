@@ -47,7 +47,7 @@
     <ClInclude Include="src\GameObject.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\MovementDircetion.h">
+    <ClInclude Include="src\MOVEMENTDIRECTION.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="src\RandomNumberGenerator.h">
@@ -60,6 +60,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="src\RectangleGameObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GAMESCENE.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

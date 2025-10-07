@@ -3,5 +3,5 @@
 int main()
 {
 	GameManager gameManager = {};
-	gameManager.StartGame();
+	gameManager.StartGameManager();
 }

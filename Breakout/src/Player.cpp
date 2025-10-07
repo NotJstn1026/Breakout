@@ -48,12 +48,12 @@ void Player::Update()
 {
 	if (IsKeyDown(KEY_A) || IsKeyDown(KEY_LEFT))
 	{
-		Movement(MovementDirection::Left);
+		Movement(MOVEMENTDIRECTION::DM_LEFT);
 	}
 
 	if (IsKeyDown(KEY_D) || IsKeyDown(KEY_RIGHT))
 	{
-		Movement(MovementDirection::Right);
+		Movement(MOVEMENTDIRECTION::DM_RIGHT);
 	}
 }
 
@@ -67,10 +67,10 @@ Rectangle Player::ReturnRectangle()
 /// Updates the player's horizontal position based on the specified movement direction.
 /// </summary>
 /// <param name="a_movementDirection">The direction in which the player should move (e.g., left or right).</param>
-void Player::Movement(MovementDirection a_movementDirection)
+void Player::Movement(MOVEMENTDIRECTION a_movementDirection)
 {
 	float newPostionX{ 0 };
-	if (MovementDirection::Left == a_movementDirection)
+	if (MOVEMENTDIRECTION::DM_LEFT == a_movementDirection)
 	{
 		m_position.x -= m_speed;
 	}
