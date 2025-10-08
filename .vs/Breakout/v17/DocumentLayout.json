@@ -1,69 +1,72 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\",
+  "WorkspaceRootPath": "C:\\GamesProgramming\\Breakout\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\Breakout.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|solutionrelative:Breakout\\src\\Breakout.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|C:\\GamesProgramming\\Breakout\\Breakout\\src\\GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|solutionrelative:Breakout\\src\\GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\GameManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\crt\\src\\vcruntime\\delete_scalar.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|C:\\GamesProgramming\\Breakout\\Breakout\\src\\GameManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|solutionrelative:Breakout\\src\\GameManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|C:\\GamesProgramming\\Breakout\\Breakout\\src\\Breakout.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|solutionrelative:Breakout\\src\\Breakout.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|C:\\GamesProgramming\\Breakout\\Breakout\\src\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|solutionrelative:Breakout\\src\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\Ball.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|C:\\GamesProgramming\\Breakout\\Breakout\\src\\Ball.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|solutionrelative:Breakout\\src\\Ball.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\Brick.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|C:\\GamesProgramming\\Breakout\\Breakout\\src\\Brick.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|solutionrelative:Breakout\\src\\Brick.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\Ball.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|C:\\GamesProgramming\\Breakout\\Breakout\\src\\Ball.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|solutionrelative:Breakout\\src\\Ball.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\Brick.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|C:\\GamesProgramming\\Breakout\\Breakout\\src\\Brick.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|solutionrelative:Breakout\\src\\Brick.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\GameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|C:\\GamesProgramming\\Breakout\\Breakout\\src\\GameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|solutionrelative:Breakout\\src\\GameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\MOVEMENTDIRECTION.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|C:\\GamesProgramming\\Breakout\\Breakout\\src\\MOVEMENTDIRECTION.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|solutionrelative:Breakout\\src\\MOVEMENTDIRECTION.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\RandomNumberGenerator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|C:\\GamesProgramming\\Breakout\\Breakout\\src\\RandomNumberGenerator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|solutionrelative:Breakout\\src\\RandomNumberGenerator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\MinMaxValue.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|C:\\GamesProgramming\\Breakout\\Breakout\\src\\MinMaxValue.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|solutionrelative:Breakout\\src\\MinMaxValue.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\ShapeType.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|C:\\GamesProgramming\\Breakout\\Breakout\\src\\ShapeType.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|solutionrelative:Breakout\\src\\ShapeType.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\RectangleGameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|C:\\GamesProgramming\\Breakout\\Breakout\\src\\RectangleGameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|solutionrelative:Breakout\\src\\RectangleGameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\GAMESCENE.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|C:\\GamesProgramming\\Breakout\\Breakout\\src\\GAMESCENE.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|solutionrelative:Breakout\\src\\GAMESCENE.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|C:\\GamesProgramming\\Breakout\\Breakout\\src\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|solutionrelative:Breakout\\src\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -80,9 +83,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "GameManager.h",
-              "DocumentMoniker": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\GameManager.h",
+              "DocumentMoniker": "C:\\GamesProgramming\\Breakout\\Breakout\\src\\GameManager.h",
               "RelativeDocumentMoniker": "Breakout\\src\\GameManager.h",
-              "ToolTip": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\GameManager.h",
+              "ToolTip": "C:\\GamesProgramming\\Breakout\\Breakout\\src\\GameManager.h",
               "RelativeToolTip": "Breakout\\src\\GameManager.h",
               "ViewState": "AgIAABsAAAAAAAAAAAAEwCsAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -96,11 +99,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "RectangleGameObject.h",
-              "DocumentMoniker": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\RectangleGameObject.h",
+              "DocumentMoniker": "C:\\GamesProgramming\\Breakout\\Breakout\\src\\RectangleGameObject.h",
               "RelativeDocumentMoniker": "Breakout\\src\\RectangleGameObject.h",
-              "ToolTip": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\RectangleGameObject.h",
+              "ToolTip": "C:\\GamesProgramming\\Breakout\\Breakout\\src\\RectangleGameObject.h",
               "RelativeToolTip": "Breakout\\src\\RectangleGameObject.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -108,11 +111,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "ShapeType.h",
-              "DocumentMoniker": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\ShapeType.h",
+              "DocumentMoniker": "C:\\GamesProgramming\\Breakout\\Breakout\\src\\ShapeType.h",
               "RelativeDocumentMoniker": "Breakout\\src\\ShapeType.h",
-              "ToolTip": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\ShapeType.h",
+              "ToolTip": "C:\\GamesProgramming\\Breakout\\Breakout\\src\\ShapeType.h",
               "RelativeToolTip": "Breakout\\src\\ShapeType.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -120,11 +123,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "MinMaxValue.h",
-              "DocumentMoniker": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\MinMaxValue.h",
+              "DocumentMoniker": "C:\\GamesProgramming\\Breakout\\Breakout\\src\\MinMaxValue.h",
               "RelativeDocumentMoniker": "Breakout\\src\\MinMaxValue.h",
-              "ToolTip": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\MinMaxValue.h",
+              "ToolTip": "C:\\GamesProgramming\\Breakout\\Breakout\\src\\MinMaxValue.h",
               "RelativeToolTip": "Breakout\\src\\MinMaxValue.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -132,11 +135,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "RandomNumberGenerator.h",
-              "DocumentMoniker": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\RandomNumberGenerator.h",
+              "DocumentMoniker": "C:\\GamesProgramming\\Breakout\\Breakout\\src\\RandomNumberGenerator.h",
               "RelativeDocumentMoniker": "Breakout\\src\\RandomNumberGenerator.h",
-              "ToolTip": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\RandomNumberGenerator.h",
+              "ToolTip": "C:\\GamesProgramming\\Breakout\\Breakout\\src\\RandomNumberGenerator.h",
               "RelativeToolTip": "Breakout\\src\\RandomNumberGenerator.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -144,11 +147,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "MOVEMENTDIRECTION.h",
-              "DocumentMoniker": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\MOVEMENTDIRECTION.h",
+              "DocumentMoniker": "C:\\GamesProgramming\\Breakout\\Breakout\\src\\MOVEMENTDIRECTION.h",
               "RelativeDocumentMoniker": "Breakout\\src\\MOVEMENTDIRECTION.h",
-              "ToolTip": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\MOVEMENTDIRECTION.h",
+              "ToolTip": "C:\\GamesProgramming\\Breakout\\Breakout\\src\\MOVEMENTDIRECTION.h",
               "RelativeToolTip": "Breakout\\src\\MOVEMENTDIRECTION.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -156,11 +159,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "GameObject.h",
-              "DocumentMoniker": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\GameObject.h",
+              "DocumentMoniker": "C:\\GamesProgramming\\Breakout\\Breakout\\src\\GameObject.h",
               "RelativeDocumentMoniker": "Breakout\\src\\GameObject.h",
-              "ToolTip": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\GameObject.h",
+              "ToolTip": "C:\\GamesProgramming\\Breakout\\Breakout\\src\\GameObject.h",
               "RelativeToolTip": "Breakout\\src\\GameObject.h",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -168,11 +171,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Brick.h",
-              "DocumentMoniker": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\Brick.h",
+              "DocumentMoniker": "C:\\GamesProgramming\\Breakout\\Breakout\\src\\Brick.h",
               "RelativeDocumentMoniker": "Breakout\\src\\Brick.h",
-              "ToolTip": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\Brick.h",
+              "ToolTip": "C:\\GamesProgramming\\Breakout\\Breakout\\src\\Brick.h",
               "RelativeToolTip": "Breakout\\src\\Brick.h",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -180,24 +183,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Ball.h",
-              "DocumentMoniker": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\Ball.h",
+              "DocumentMoniker": "C:\\GamesProgramming\\Breakout\\Breakout\\src\\Ball.h",
               "RelativeDocumentMoniker": "Breakout\\src\\Ball.h",
-              "ToolTip": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\Ball.h",
+              "ToolTip": "C:\\GamesProgramming\\Breakout\\Breakout\\src\\Ball.h",
               "RelativeToolTip": "Breakout\\src\\Ball.h",
               "ViewState": "AgIAACEAAAAAAAAAAAAEwB8AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-09-09T12:07:39.905Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-09T12:07:39.905Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Player.h",
-              "DocumentMoniker": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\Player.h",
+              "DocumentMoniker": "C:\\GamesProgramming\\Breakout\\Breakout\\src\\Player.h",
               "RelativeDocumentMoniker": "Breakout\\src\\Player.h",
-              "ToolTip": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\Player.h",
+              "ToolTip": "C:\\GamesProgramming\\Breakout\\Breakout\\src\\Player.h",
               "RelativeToolTip": "Breakout\\src\\Player.h",
               "ViewState": "AgIAABUAAAAAAAAAAAAAABUAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -205,11 +207,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "GAMESCENE.h",
-              "DocumentMoniker": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\GAMESCENE.h",
+              "DocumentMoniker": "C:\\GamesProgramming\\Breakout\\Breakout\\src\\GAMESCENE.h",
               "RelativeDocumentMoniker": "Breakout\\src\\GAMESCENE.h",
-              "ToolTip": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\GAMESCENE.h",
+              "ToolTip": "C:\\GamesProgramming\\Breakout\\Breakout\\src\\GAMESCENE.h",
               "RelativeToolTip": "Breakout\\src\\GAMESCENE.h",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -219,15 +221,15 @@
         },
         {
           "DockedHeight": 197,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Breakout.cpp",
-              "DocumentMoniker": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\Breakout.cpp",
+              "DocumentMoniker": "C:\\GamesProgramming\\Breakout\\Breakout\\src\\Breakout.cpp",
               "RelativeDocumentMoniker": "Breakout\\src\\Breakout.cpp",
-              "ToolTip": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\Breakout.cpp",
+              "ToolTip": "C:\\GamesProgramming\\Breakout\\Breakout\\src\\Breakout.cpp",
               "RelativeToolTip": "Breakout\\src\\Breakout.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -237,13 +239,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "GameManager.cpp",
-              "DocumentMoniker": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\GameManager.cpp",
+              "DocumentMoniker": "C:\\GamesProgramming\\Breakout\\Breakout\\src\\GameManager.cpp",
               "RelativeDocumentMoniker": "Breakout\\src\\GameManager.cpp",
-              "ToolTip": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\GameManager.cpp",
+              "ToolTip": "C:\\GamesProgramming\\Breakout\\Breakout\\src\\GameManager.cpp",
               "RelativeToolTip": "Breakout\\src\\GameManager.cpp",
-              "ViewState": "AgIAANsAAAAAAAAAAAAAAOQAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAAAFoAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-09-09T12:07:50.282Z",
               "IsPinned": true,
@@ -251,42 +253,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Ball.cpp",
-              "DocumentMoniker": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\Ball.cpp",
-              "RelativeDocumentMoniker": "Breakout\\src\\Ball.cpp",
-              "ToolTip": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\Ball.cpp",
-              "RelativeToolTip": "Breakout\\src\\Ball.cpp",
-              "ViewState": "AgIAABcAAAAAAAAAAAAkwCMAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "delete_scalar.cpp",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\crt\\src\\vcruntime\\delete_scalar.cpp",
+              "RelativeDocumentMoniker": "..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\crt\\src\\vcruntime\\delete_scalar.cpp",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\crt\\src\\vcruntime\\delete_scalar.cpp",
+              "RelativeToolTip": "..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\crt\\src\\vcruntime\\delete_scalar.cpp",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAcwCEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-09-09T12:50:27.346Z",
+              "WhenOpened": "2025-10-08T11:33:18.158Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Brick.cpp",
-              "DocumentMoniker": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\Brick.cpp",
-              "RelativeDocumentMoniker": "Breakout\\src\\Brick.cpp",
-              "ToolTip": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\Brick.cpp",
-              "RelativeToolTip": "Breakout\\src\\Brick.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAVAAAAAAAAAA==",
+              "Title": "Ball.cpp",
+              "DocumentMoniker": "C:\\GamesProgramming\\Breakout\\Breakout\\src\\Ball.cpp",
+              "RelativeDocumentMoniker": "Breakout\\src\\Ball.cpp",
+              "ToolTip": "C:\\GamesProgramming\\Breakout\\Breakout\\src\\Ball.cpp",
+              "RelativeToolTip": "Breakout\\src\\Ball.cpp",
+              "ViewState": "AgIAABcAAAAAAAAAAAAkwCMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-09-09T12:07:56.627Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-09T12:50:27.346Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
+              "Title": "Brick.cpp",
+              "DocumentMoniker": "C:\\GamesProgramming\\Breakout\\Breakout\\src\\Brick.cpp",
+              "RelativeDocumentMoniker": "Breakout\\src\\Brick.cpp",
+              "ToolTip": "C:\\GamesProgramming\\Breakout\\Breakout\\src\\Brick.cpp",
+              "RelativeToolTip": "Breakout\\src\\Brick.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-09T12:07:56.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Player.cpp",
-              "DocumentMoniker": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\Player.cpp",
+              "DocumentMoniker": "C:\\GamesProgramming\\Breakout\\Breakout\\src\\Player.cpp",
               "RelativeDocumentMoniker": "Breakout\\src\\Player.cpp",
-              "ToolTip": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\Player.cpp",
+              "ToolTip": "C:\\GamesProgramming\\Breakout\\Breakout\\src\\Player.cpp",
               "RelativeToolTip": "Breakout\\src\\Player.cpp",
               "ViewState": "AgIAAAMAAAAAAAAAAAAkwA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-09-09T12:07:49.035Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-09T12:07:49.035Z"
             }
           ]
         }

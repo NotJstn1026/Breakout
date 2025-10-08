@@ -73,13 +73,11 @@ void GameManager::AddBall()
 
 void GameManager::DestroyBall(Ball* a_ballPtr)
 {
-	/*Ball* ballToDelete = nullptr;*/
-
 	for (size_t i = 0; i < m_balls.size(); i++)
 	{
 		if (m_balls[i] == a_ballPtr)
 		{
-			/*ballToDelete = m_balls[i];*/
+			m_balls[i] = nullptr;
 			m_balls.erase(m_balls.begin() + i);
 			break;
 		}
@@ -89,6 +87,8 @@ void GameManager::DestroyBall(Ball* a_ballPtr)
 	{
 		if (m_gameObjects[i] == a_ballPtr)
 		{
+			delete m_gameObjects[i];
+			m_gameObjects[i] = nullptr;
 			m_gameObjects.erase(m_gameObjects.begin() + i);
 			break;
 		}
@@ -221,8 +221,6 @@ void GameManager::Update()
 
 void GameManager::EndGame()
 {
-	delete m_player;
-	m_player = nullptr;
 
 	for (size_t i = 0; i < m_gameObjects.size(); i++)
 	{
