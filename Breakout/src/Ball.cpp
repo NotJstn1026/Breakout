@@ -19,6 +19,7 @@ Ball::Ball(float a_startPostionX, std::vector<GameObject*> a_gameObjectList, Gam
 
 Ball::~Ball()
 {
+	m_gameManager = nullptr;
 }
 
 
@@ -27,6 +28,7 @@ Ball::~Ball()
 /// </summary>
 void Ball::Update()
 {
+	
 	m_postion.x += m_speed.x;
 	m_postion.y += m_speed.y;
 
@@ -101,6 +103,14 @@ void Ball::HitCheck()
 				}
 
 				m_speed.x = newSpeedX;
+				m_bounceCounter++;
+
+				if (m_bounceCounter % M_BOUNCE_FOR_EXTRA_BALL == 0)
+				{
+					m_gameManager->AddBall();
+				}
+
+				// Random version
 
 				//if (playerCenterPostionX <= m_postion.x)
 				//{
@@ -117,18 +127,25 @@ void Ball::HitCheck()
 				break;
 			}
 		}
-
-
-		if (Brick* currentBrick = dynamic_cast<Brick*>(m_gameObjects[i]))
+		else if (Brick* currentBrick = dynamic_cast<Brick*>(m_gameObjects[i]))
 		{
 			Rectangle rec = currentBrick->ReturnRectangle();
 			if (CheckCollisionCircleRec(m_postion, m_radius, rec))
 			{
-				currentBrick->DestroyBrick();
-				m_speed.y *= -1;
-				if (m_postion.y >= currentBrick->GetBrickPostion().y)
+				if (rec.width + rec.x <= m_postion.x || rec.x >= m_postion.x)
 				{
-					m_speed.x *= 1;
+					m_speed.x *= -1;
+				}
+				else
+				{
+					m_speed.y *= -1;
+				}
+
+				currentBrick->DestroyBrick();
+				m_bounceCounter++;
+				if (m_bounceCounter % 10 == 0)
+				{
+					m_gameManager->AddBall();
 				}
 				break;
 			}

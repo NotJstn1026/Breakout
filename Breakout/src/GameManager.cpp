@@ -15,30 +15,26 @@ void GameManager::InitGame()
 		SetTargetFPS(M_TARGET_FPS);
 	}
 
-	float totalHorizontalSpace = (M_BRICKS_PER_LINE + 1) * M_BRICK_SPACE;
-
-	Vector2 brickSize = { (M_WIDTH - totalHorizontalSpace) / M_BRICKS_PER_LINE, M_BRICK_HEIGHT };
-
 	m_player = new Player(ShapeType::Rectangle);
 
 	m_gameObjects.push_back(m_player);
 
-	SetBricks(brickSize);
+	SetBricks();
 
 	AddBall();
 }
 
-/// <summary>
-/// 
-/// </summary>
-/// <param name="brickSize"></param>
-void GameManager::SetBricks(Vector2& a_brickSize)
+void GameManager::SetBricks()
 {
+	float totalHorizontalSpace = (M_BRICKS_PER_LINE + 1) * M_BRICK_SPACE;
+	Vector2 brickSize = { (M_WIDTH - totalHorizontalSpace) / M_BRICKS_PER_LINE, M_BRICK_HEIGHT };
+
 	float currentHeight = M_BRICK_SPACE;
 	float currentWidth = M_BRICK_SPACE;
 
 	// Make Room for Text above the bricks
 	currentHeight += M_START_HEIGTH_BRICKS;
+
 
 	for (int y = 0; y < M_LINES_OF_BRICKS; y++)
 	{
@@ -52,13 +48,15 @@ void GameManager::SetBricks(Vector2& a_brickSize)
 
 			brickPtr->SetColor(M_BRICK_COLOR[y]);
 
-			brickPtr->SetBrickPostionAndSize(brickPostion, a_brickSize);
+			brickPtr->SetBrickPostionAndSize(brickPostion, brickSize);
 
 			m_gameObjects.push_back(brickPtr);
 
-			currentWidth += a_brickSize.x + M_BRICK_SPACE;
+			currentWidth += brickSize.x + M_BRICK_SPACE;
+
+			m_brickCount++;
 		}
-		currentHeight += a_brickSize.y + M_BRICK_SPACE;
+		currentHeight += brickSize.y + M_BRICK_SPACE;
 	}
 }
 
@@ -95,10 +93,11 @@ void GameManager::DestroyBall(Ball* a_ballPtr)
 	}
 }
 
+
 void GameManager::StartGameManager()
 {
 	InitGame();
-	while (WindowShouldClose() == false)
+	while (WindowShouldClose() == false || m_gameOver)
 	{
 		Update();
 		DrawGame();
@@ -115,6 +114,7 @@ void GameManager::DestroyBrick(Brick* a_brickPtr)
 			m_gameObjects[i] = nullptr;
 			m_gameObjects.erase(m_gameObjects.begin() + i);
 			m_playerScore += M_BRICK_POINTS;
+			m_brickCount--;
 			break;
 		}
 	}
@@ -126,7 +126,6 @@ GameManager::GameManager()
 
 GameManager::~GameManager()
 {
-
 }
 
 void GameManager::DrawGame()
@@ -142,32 +141,32 @@ void GameManager::DrawGame()
 
 	case GAMESCENE::GS_GAME:
 
-
 		if (!m_gameOver)
 		{
-			int counter = 0;
 			for (size_t i = 0; i < m_gameObjects.size(); i++)
 			{
 				if (m_gameObjects[i] != nullptr)
 				{
 					m_gameObjects[i]->Draw();
-					counter++;
 				}
 			}
+
+
 			DrawText(std::to_string(m_playerScore).c_str(), 10, 10, 20, WHITE);
 		}
-
-
 
 		break;
 
 	case GAMESCENE::GS_GAMEOVER:
 		DrawText("Game Over!", 300, 200, 20, WHITE);
-		DrawText("Press ENTER to Exit", 280, 240, 20, WHITE);
-		DrawText("Press SPACE to Restart", 260, 280, 20, WHITE);
+		DrawText("Your score: ", 300, 240, 20, WHITE);
+		DrawText(std::to_string(m_playerScore).c_str(), 450, 240, 20, WHITE);
+		DrawText("Press ESC to Exit", 250, 280, 20, WHITE);
+		DrawText("Press SPACE to Restart", 250, 320, 20, WHITE);
 
 		break;
 	default:
+		m_currentGameScene = GAMESCENE::GS_STARTMENU;
 		break;
 	}
 
@@ -200,10 +199,16 @@ void GameManager::Update()
 			m_balls[i]->Update();
 		}
 		m_player->Update();
+
+		if (m_brickCount == 0)
+		{
+			SetBricks();
+		}
+
 		break;
 
 	case GAMESCENE::GS_GAMEOVER:
-		if (IsKeyPressed(KEY_ENTER))
+		if (IsKeyPressed(KEY_ESCAPE))
 		{
 			EndGame();
 		}
@@ -221,12 +226,12 @@ void GameManager::Update()
 
 void GameManager::EndGame()
 {
-
 	for (size_t i = 0; i < m_gameObjects.size(); i++)
 	{
 		if (m_gameObjects[i] != nullptr)delete m_gameObjects[i];
 		m_gameObjects[i] = nullptr;
 	}
+	m_gameOver = true;
 	CloseWindow();
 }
 

@@ -63,19 +63,25 @@ Rectangle Player::ReturnRectangle()
 	return rec;
 }
 
+
 /// <summary>
 /// Updates the player's horizontal position based on the specified movement direction.
 /// </summary>
 /// <param name="a_movementDirection">The direction in which the player should move (e.g., left or right).</param>
 void Player::Movement(MOVEMENTDIRECTION a_movementDirection)
 {
-	float newPostionX{ 0 };
 	if (MOVEMENTDIRECTION::DM_LEFT == a_movementDirection)
 	{
-		m_position.x -= m_speed;
+		if (ReturnRectangle().x > 0)
+		{
+			m_position.x -= m_speed;
+		}
 	}
 	else
 	{
-		m_position.x += m_speed;
+		if (ReturnRectangle().width + ReturnRectangle().x < GetScreenWidth())
+		{
+			m_position.x += m_speed;
+		}
 	}
 }

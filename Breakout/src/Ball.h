@@ -41,6 +41,7 @@ private:
 	const MinMaxValue<float> M_RANDOM_VALUES = { -3.0f,3.0f };
 	const Vector2 M_MAX_SPEED = { 5.0f,5.0f };
 	const float M_SPEED_FACTOR = 0.15f;
+	const int M_BOUNCE_FOR_EXTRA_BALL = 35;
 
 	void OutOfBoundsCheck();
 	void HitCheck();

@@ -35,9 +35,12 @@ public:
 	void DestroyBall(Ball* a_ballPtr);
 	GameManager();
 	~GameManager();
+
+	inline int GetBrickCount() const { return m_brickCount; }
+
 private:
 	void InitGame();
-	void SetBricks(Vector2& a_brickSize);
+	void SetBricks();
 	void DrawGame();
 	void Update();
 	void EndGame();
@@ -62,9 +65,12 @@ private:
 	GAMESCENE m_currentGameScene = GAMESCENE::GS_STARTMENU;
 
 	bool m_gameOver = false;
-	std::vector<GameObject*> m_gameObjects{};
-	std::vector <Ball*> m_balls = {};
-	Player* m_player = nullptr;
 	int m_playerScore = 0;
+	int m_brickCount = {};
+
+
+	std::vector<GameObject*> m_gameObjects{};
+	std::vector<Ball*> m_balls = {};
+	Player* m_player = nullptr;
 };
 

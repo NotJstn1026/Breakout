@@ -14,6 +14,7 @@
 * 09.09.25 JM Created
 * 09.09.25 JM Draw method implemented
 * 24.09.25 JM Added Movement method and Update logic
+* 07.10.25 JM Added ReturnRectangle method for collision detection
 ******************************************************************************/
 
 #pragma once
@@ -31,7 +32,6 @@ public:
 	void Draw()override;
 	void Update();
 	Rectangle ReturnRectangle();
-
 private:
 	void Movement(MOVEMENTDIRECTION a_movementDirection);
 	const int M_HALFSCREEN = 2;
