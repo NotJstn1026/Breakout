@@ -3,13 +3,10 @@
 #include "Player.h"
 #include "GameManager.h"
 
-/// <summary>
-/// Constructs a Ball object at a specified vertical position, initializing its position, radius, and speed.
-/// </summary>
-/// <param name="a_startPostionX">The vertical (Y-axis) position where the ball will be spawned.</param>
+
 Ball::Ball(float a_startPostionX, std::vector<GameObject*> a_gameObjectList, GameManager* a_gameManager, ShapeType a_ballShape) : GameObject(a_ballShape)
 {
-	Vector2 spawnPostion = { GetScreenWidth() * 0.5f, a_startPostionX };
+	Vector2 spawnPostion = { GetScreenWidth() * M_HALF, a_startPostionX };
 	m_postion = spawnPostion;
 	m_radius = M_START_RADIUS;
 	m_speed = Vector2{ M_RANDOM_VALUES.GetRandomValue(),M_VERTICAL_SPEED };
@@ -23,12 +20,8 @@ Ball::~Ball()
 }
 
 
-/// <summary>
-/// Updates the ball´s postion and checks for bounces.
-/// </summary>
 void Ball::Update()
 {
-	
 	m_postion.x += m_speed.x;
 	m_postion.y += m_speed.y;
 
@@ -37,20 +30,18 @@ void Ball::Update()
 	OutOfBoundsCheck();
 }
 
-/// <summary>
-/// Checks if the ball has moved out of the screen bounds and reverses its velocity if necessary.
-/// </summary>
+
 void Ball::OutOfBoundsCheck()
 {
 	if (((m_postion.x + m_radius) >= GetScreenWidth()) || ((m_postion.x - m_radius) <= 0))
 	{
-		m_speed.x *= -1;
+		m_speed.x *= M_MINUS_ONE;
 	}
 
 	// Hitting top of the screen
 	if ((m_postion.y - m_radius) <= 0)
 	{
-		m_speed.y *= -1;
+		m_speed.y *= M_MINUS_ONE;
 	}
 
 	// Hitting bottom of the screen
@@ -60,18 +51,13 @@ void Ball::OutOfBoundsCheck()
 	}
 }
 
-/// <summary>
-/// Draws the ball on the screen at its current position with its specified radius.
-/// </summary>
+
 void Ball::Draw()
 {
 	DrawCircle(m_postion.x, m_postion.y, m_radius, WHITE);
 }
 
 
-/// <summary>
-/// 
-/// </summary>
 void Ball::HitCheck()
 {
 	for (size_t i = 0; i < m_gameObjects.size(); i++)
@@ -87,8 +73,13 @@ void Ball::HitCheck()
 			Rectangle rec = player->ReturnRectangle();
 			if (CheckCollisionCircleRec(m_postion, m_radius, rec))
 			{
-				m_speed.y *= -1;
-				float playerCenterPostionX = player->GetPostion().x + player->GetSize().x * 0.5f;
+				if(m_postion.x < rec.x || m_postion.x > rec.x + rec.width)
+				{
+					m_speed.x *= M_MINUS_ONE;
+				}
+
+				m_speed.y *= M_MINUS_ONE;
+				float playerCenterPostionX = player->GetPostion().x + player->GetSize().x * M_HALF;
 
 				float newSpeedX = m_postion.x - playerCenterPostionX;
 				newSpeedX *= M_SPEED_FACTOR;
@@ -134,11 +125,11 @@ void Ball::HitCheck()
 			{
 				if (rec.width + rec.x <= m_postion.x || rec.x >= m_postion.x)
 				{
-					m_speed.x *= -1;
+					m_speed.x *= M_MINUS_ONE;
 				}
 				else
 				{
-					m_speed.y *= -1;
+					m_speed.y *= M_MINUS_ONE;
 				}
 
 				currentBrick->DestroyBrick();

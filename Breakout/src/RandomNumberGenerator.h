@@ -4,11 +4,8 @@
 * Date : 06.10.2025
 * Author : Justin Martin (JM)
 *
-* These coded instructions, statements, and computer programs contain
-* proprietary information of the author and are protected by Federal
-* copyright law. They may not be disclosed to third parties or copied
-* or duplicated in any form, in whole or in part, without the prior
-* written consent of the author.
+* The RandomNumberGenerator class is a template-based utility for generating random numbers of various types (e.g., int, float).
+* It uses the C++ <random> library to provide uniformly distributed random values within a specified range.
 *
 * History:
 * 09.09.25 JM Created

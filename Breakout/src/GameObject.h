@@ -4,11 +4,8 @@
 * Date : 06.10.2025
 * Author : Justin Martin (JM)
 *
-* These coded instructions, statements, and computer programs contain
-* proprietary information of the author and are protected by Federal
-* copyright law. They may not be disclosed to third parties or copied
-* or duplicated in any form, in whole or in part, without the prior
-* written consent of the author.
+* The GameObject class is an abstract base class that defines a common interface for all game objects in the Breakout game.
+* It includes a pure virtual Draw() method that must be implemented by all derived classes, ensuring that each game object can be rendered appropriately.
 *
 * History:
 * 24.09.25 JM Created

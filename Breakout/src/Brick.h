@@ -4,11 +4,9 @@
 * Date : 06.10.2025
 * Author : Justin Martin (JM)
 *
-* These coded instructions, statements, and computer programs contain
-* proprietary information of the author and are protected by Federal
-* copyright law. They may not be disclosed to third parties or copied
-* or duplicated in any form, in whole or in part, without the prior
-* written consent of the author.
+* The Brick class represents a brick object in the Breakout game, inheriting from RectangleGameObject.
+* It includes methods to set and get the brick's position and size, as well as a method to destroy the brick,
+* which notifies the GameManager to update the game state accordingly.
 *
 * History:
 * 09.09.25 JM Created

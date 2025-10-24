@@ -4,11 +4,8 @@
 * Date : 06.10.2025
 * Author : Justin Martin (JM)
 *
-* These coded instructions, statements, and computer programs contain
-* proprietary information of the author and are protected by Federal
-* copyright law. They may not be disclosed to third parties or copied
-* or duplicated in any form, in whole or in part, without the prior
-* written consent of the author.
+* The Player class represents the player's paddle in the Breakout game, inheriting from RectangleGameObject.
+* It includes methods for drawing the paddle, updating its position based on player input, and handling movement in specified directions.
 *
 * History:
 * 09.09.25 JM Created
@@ -35,5 +32,10 @@ public:
 private:
 	void Movement(MOVEMENTDIRECTION a_movementDirection);
 	const int M_HALFSCREEN = 2;
+	const float M_SEVEN = 7.0f;
+	const float M_EIGHTH = 8.0f;
+	const float M_HALF = 0.5f;
+	const float M_SCREEN_BORDER_OFFSET = 30.0f;
 	float m_speed = 5;
+
 };

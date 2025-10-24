@@ -5,10 +5,10 @@
 /// </summary>
 Player::Player(ShapeType a_playerShape) : RectangleGameObject(a_playerShape)
 {
-	float startHeight = (float)GetScreenHeight() * 7 / 8; //Take one-eighth of the screen height for the start point
-	m_size = Vector2{ (float)GetScreenWidth() / 8, 8 };
+	float startHeight = (float)GetScreenHeight() * M_SEVEN / M_EIGHTH; //Take one-eighth of the screen height for the start point
+	m_size = Vector2{ (float)GetScreenWidth() / M_EIGHTH, M_EIGHTH };
 	float startPostionX = ((float)GetScreenWidth() / M_HALFSCREEN);
-	m_position = Vector2{ startPostionX - m_size.x * 0.5f, startHeight };
+	m_position = Vector2{ startPostionX - m_size.x * M_HALF, startHeight };
 }
 
 Player::~Player()
@@ -72,14 +72,14 @@ void Player::Movement(MOVEMENTDIRECTION a_movementDirection)
 {
 	if (MOVEMENTDIRECTION::DM_LEFT == a_movementDirection)
 	{
-		if (ReturnRectangle().x > 0)
+		if (ReturnRectangle().x > M_SCREEN_BORDER_OFFSET)
 		{
 			m_position.x -= m_speed;
 		}
 	}
 	else
 	{
-		if (ReturnRectangle().width + ReturnRectangle().x < GetScreenWidth())
+		if (ReturnRectangle().width + ReturnRectangle().x < GetScreenWidth()- M_SCREEN_BORDER_OFFSET)
 		{
 			m_position.x += m_speed;
 		}

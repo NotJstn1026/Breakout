@@ -4,11 +4,11 @@
 * Date : 06.10.2025
 * Author : Justin Martin (JM)
 *
-* These coded instructions, statements, and computer programs contain
-* proprietary information of the author and are protected by Federal
-* copyright law. They may not be disclosed to third parties or copied
-* or duplicated in any form, in whole or in part, without the prior
-* written consent of the author.
+* The GameManager class is the main controller for a Breakout game, handling the entire game loop and state.
+* It creates, manages, and updates all game objects like the player, balls, and bricks.
+* The class uses a state machine to switch between the start menu, active gameplay, and game over scenes.
+* It's also responsible for memory management, with dedicated methods to safely destroy objects and prevent memory leaks.
+* Finally, it orchestrates all drawing and input handling, ensuring a smooth and responsive gameplay experience.
 *
 * History:
 * 09.09.25 JM Created
@@ -50,7 +50,24 @@ private:
 	const float M_HEIGHT = 500;
 	const float M_TARGET_FPS = 60;
 	const char* M_GAME_NAME = "Breakout";
+	const float M_ONE_AND_A_HALF = 1.5f;
+	const float M_HALF = 0.5f;
 
+	const int M_TEXT_SIZE = 20;
+
+	const int M_STARTMENU_POS_X = 180;
+
+	const int M_POINTS_POSITION_X = 10;
+	const int M_POINTS_POSITION_Y = 10;
+	const int M_GAME_OVER_POS_X = 280;
+	const int M_GAME_OVER_POS_Y = 200;
+	const int M_SCORE_LABEL_POS_X = M_GAME_OVER_POS_X + 130;
+	const int M_SCORE_LABEL_POS_Y = 240;
+	const int M_SCORE_VALUE_POS_Y = 240;
+	const int M_EXIT_POS_X = 250;
+	const int M_EXIT_POS_Y = 280;
+	const int M_RESTART_POS_X = 250;
+	const int M_RESTART_POS_Y = 320;
 
 	//Bricks
 	const int M_LINES_OF_BRICKS = 3;

@@ -1,12 +1,10 @@
 #include <iostream>
+#include <string>
 #include "GameManager.h"
 #include "raylib.h"
 #include "MOVEMENTDIRECTION.h"
-#include <string>
 
-/// <summary>
-/// Inintiales the window and game.
-/// </summary>
+
 void GameManager::InitGame()
 {
 	if (!IsWindowReady())
@@ -62,7 +60,7 @@ void GameManager::SetBricks()
 
 void GameManager::AddBall()
 {
-	float ballPostionY = m_player->GetPostion().y - m_player->GetPostion().y / 1.5f;
+	float ballPostionY = m_player->GetPostion().y - m_player->GetPostion().y / M_ONE_AND_A_HALF;
 	Ball* newBall = new Ball(ballPostionY, m_gameObjects, this, ShapeType::Circle);
 	m_balls.push_back(newBall);
 
@@ -136,7 +134,7 @@ void GameManager::DrawGame()
 	{
 	case GAMESCENE::GS_STARTMENU:
 
-		DrawText("Press SPACE to Start the Game", 200, 200, 20, WHITE);
+		DrawText("Press SPACE to Start the Game", M_STARTMENU_POS_X, M_HEIGHT * M_HALF, M_TEXT_SIZE, WHITE);
 		break;
 
 	case GAMESCENE::GS_GAME:
@@ -151,18 +149,17 @@ void GameManager::DrawGame()
 				}
 			}
 
-
-			DrawText(std::to_string(m_playerScore).c_str(), 10, 10, 20, WHITE);
+			DrawText(std::to_string(m_playerScore).c_str(), M_POINTS_POSITION_X, M_POINTS_POSITION_Y, M_TEXT_SIZE, WHITE);
 		}
 
 		break;
 
 	case GAMESCENE::GS_GAMEOVER:
-		DrawText("Game Over!", 300, 200, 20, WHITE);
-		DrawText("Your score: ", 300, 240, 20, WHITE);
-		DrawText(std::to_string(m_playerScore).c_str(), 450, 240, 20, WHITE);
-		DrawText("Press ESC to Exit", 250, 280, 20, WHITE);
-		DrawText("Press SPACE to Restart", 250, 320, 20, WHITE);
+		DrawText("Game Over!", M_GAME_OVER_POS_X, M_GAME_OVER_POS_Y, M_TEXT_SIZE, WHITE);
+		DrawText("Your score: ", M_GAME_OVER_POS_X, M_SCORE_LABEL_POS_Y, M_TEXT_SIZE, WHITE);
+		DrawText(std::to_string(m_playerScore).c_str(), M_SCORE_LABEL_POS_X, M_SCORE_VALUE_POS_Y, M_TEXT_SIZE, WHITE);
+		DrawText("Press ESC to Exit", M_EXIT_POS_X, M_EXIT_POS_Y, M_TEXT_SIZE, WHITE);
+		DrawText("Press SPACE to Restart", M_RESTART_POS_X, M_RESTART_POS_Y, M_TEXT_SIZE, WHITE);
 
 		break;
 	default:
@@ -219,6 +216,7 @@ void GameManager::Update()
 
 		break;
 	default:
+		m_currentGameScene = GAMESCENE::GS_STARTMENU;
 		break;
 	}
 

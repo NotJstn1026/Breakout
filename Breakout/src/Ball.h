@@ -4,11 +4,10 @@
 * Date : 06.10.2025
 * Author : Justin Martin (JM)
 *
-* These coded instructions, statements, and computer programs contain
-* proprietary information of the author and are protected by Federal
-* copyright law. They may not be disclosed to third parties or copied
-* or duplicated in any form, in whole or in part, without the prior
-* written consent of the author.
+* The Ball class represents a ball object in the Breakout game, inheriting from GameObject.
+* It includes methods for updating the ball's position, checking for collisions with other game objects,
+* and drawing the ball on the screen. The class also tracks the number of bounces the ball has made,
+* which can be used to trigger events such as adding extra balls to the game.
 *
 * History:
 * 09.09.25 JM Created
@@ -36,12 +35,14 @@ public:
 
 	void Draw() override;
 private:
-	const float M_START_RADIUS = 5.5f;
+	const float M_START_RADIUS = 8.0f;
 	const float M_VERTICAL_SPEED = 3.0f;
 	const MinMaxValue<float> M_RANDOM_VALUES = { -3.0f,3.0f };
 	const Vector2 M_MAX_SPEED = { 5.0f,5.0f };
 	const float M_SPEED_FACTOR = 0.15f;
 	const int M_BOUNCE_FOR_EXTRA_BALL = 35;
+	const float M_HALF = 0.5f;
+	const int M_MINUS_ONE = -1;
 
 	void OutOfBoundsCheck();
 	void HitCheck();

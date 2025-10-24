@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|solutionrelative:Breakout\\src\\GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\GameManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|solutionrelative:Breakout\\src\\GameManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|solutionrelative:Breakout\\src\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -11,32 +19,32 @@
       "RelativeMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|solutionrelative:Breakout\\src\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\Ball.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|solutionrelative:Breakout\\src\\Ball.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\Ball.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|solutionrelative:Breakout\\src\\Ball.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\GameManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|solutionrelative:Breakout\\src\\GameManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\Ball.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|solutionrelative:Breakout\\src\\Ball.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|solutionrelative:Breakout\\src\\GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\Breakout.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|solutionrelative:Breakout\\src\\Breakout.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\Brick.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|solutionrelative:Breakout\\src\\Brick.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\Brick.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|solutionrelative:Breakout\\src\\Brick.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\Brick.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|solutionrelative:Breakout\\src\\Brick.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\Breakout.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|solutionrelative:Breakout\\src\\Breakout.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\RectangleGameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|solutionrelative:Breakout\\src\\RectangleGameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\GAMESCENE.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|solutionrelative:Breakout\\src\\GAMESCENE.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\GameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -57,14 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\ShapeType.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|solutionrelative:Breakout\\src\\ShapeType.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\RectangleGameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|solutionrelative:Breakout\\src\\RectangleGameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\GAMESCENE.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{475F3017-4829-46C7-BB96-259F5F58C90D}|Breakout\\Breakout.vcxproj|solutionrelative:Breakout\\src\\GAMESCENE.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,17 +74,17 @@
       "DocumentGroups": [
         {
           "DockedHeight": 203,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "GameManager.h",
               "DocumentMoniker": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\GameManager.h",
               "RelativeDocumentMoniker": "Breakout\\src\\GameManager.h",
-              "ToolTip": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\GameManager.h",
-              "RelativeToolTip": "Breakout\\src\\GameManager.h",
-              "ViewState": "AgIAADMAAAAAAAAAAAAEwDkAAAARAAAAAAAAAA==",
+              "ToolTip": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\GameManager.h*",
+              "RelativeToolTip": "Breakout\\src\\GameManager.h*",
+              "ViewState": "AgIAADMAAAAAAAAAAAAiwD8AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-09-23T13:36:57.806Z",
               "IsPinned": true,
@@ -96,123 +96,124 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 9,
               "Title": "RectangleGameObject.h",
               "DocumentMoniker": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\RectangleGameObject.h",
               "RelativeDocumentMoniker": "Breakout\\src\\RectangleGameObject.h",
               "ToolTip": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\RectangleGameObject.h",
               "RelativeToolTip": "Breakout\\src\\RectangleGameObject.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-10-03T17:18:09.411Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "ShapeType.h",
               "DocumentMoniker": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\ShapeType.h",
               "RelativeDocumentMoniker": "Breakout\\src\\ShapeType.h",
               "ToolTip": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\ShapeType.h",
               "RelativeToolTip": "Breakout\\src\\ShapeType.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-10-03T08:39:19.114Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "MinMaxValue.h",
               "DocumentMoniker": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\MinMaxValue.h",
               "RelativeDocumentMoniker": "Breakout\\src\\MinMaxValue.h",
               "ToolTip": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\MinMaxValue.h",
               "RelativeToolTip": "Breakout\\src\\MinMaxValue.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAACGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-10-01T14:37:50.651Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "RandomNumberGenerator.h",
               "DocumentMoniker": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\RandomNumberGenerator.h",
               "RelativeDocumentMoniker": "Breakout\\src\\RandomNumberGenerator.h",
               "ToolTip": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\RandomNumberGenerator.h",
               "RelativeToolTip": "Breakout\\src\\RandomNumberGenerator.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABrAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-10-01T09:22:44.941Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "MOVEMENTDIRECTION.h",
               "DocumentMoniker": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\MOVEMENTDIRECTION.h",
               "RelativeDocumentMoniker": "Breakout\\src\\MOVEMENTDIRECTION.h",
               "ToolTip": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\MOVEMENTDIRECTION.h",
               "RelativeToolTip": "Breakout\\src\\MOVEMENTDIRECTION.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-09-28T20:16:26.578Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "GameObject.h",
               "DocumentMoniker": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\GameObject.h",
               "RelativeDocumentMoniker": "Breakout\\src\\GameObject.h",
               "ToolTip": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\GameObject.h",
               "RelativeToolTip": "Breakout\\src\\GameObject.h",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAACZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-09-23T13:38:39.235Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "Brick.h",
               "DocumentMoniker": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\Brick.h",
               "RelativeDocumentMoniker": "Breakout\\src\\Brick.h",
               "ToolTip": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\Brick.h",
               "RelativeToolTip": "Breakout\\src\\Brick.h",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-09-09T12:07:42.377Z"
+              "WhenOpened": "2025-09-09T12:07:42.377Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Ball.h",
               "DocumentMoniker": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\Ball.h",
               "RelativeDocumentMoniker": "Breakout\\src\\Ball.h",
-              "ToolTip": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\Ball.h*",
-              "RelativeToolTip": "Breakout\\src\\Ball.h*",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAACoAAAAbAAAAAAAAAA==",
+              "ToolTip": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\Ball.h",
+              "RelativeToolTip": "Breakout\\src\\Ball.h",
+              "ViewState": "AgIAABkAAAAAAAAAAAAiwCUAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-09-09T12:07:39.905Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Player.h",
               "DocumentMoniker": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\Player.h",
               "RelativeDocumentMoniker": "Breakout\\src\\Player.h",
               "ToolTip": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\Player.h",
               "RelativeToolTip": "Breakout\\src\\Player.h",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACEAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACUAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-09-09T12:07:38.406Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 10,
               "Title": "GAMESCENE.h",
               "DocumentMoniker": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\GAMESCENE.h",
               "RelativeDocumentMoniker": "Breakout\\src\\GAMESCENE.h",
               "ToolTip": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\GAMESCENE.h",
               "RelativeToolTip": "Breakout\\src\\GAMESCENE.h",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-10-07T12:20:13.412Z"
             }
@@ -220,30 +221,30 @@
         },
         {
           "DockedHeight": 197,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Breakout.cpp",
               "DocumentMoniker": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\Breakout.cpp",
               "RelativeDocumentMoniker": "Breakout\\src\\Breakout.cpp",
               "ToolTip": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\Breakout.cpp",
               "RelativeToolTip": "Breakout\\src\\Breakout.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-09-09T12:07:56.143Z",
               "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "GameManager.cpp",
               "DocumentMoniker": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\GameManager.cpp",
               "RelativeDocumentMoniker": "Breakout\\src\\GameManager.cpp",
-              "ToolTip": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\GameManager.cpp",
-              "RelativeToolTip": "Breakout\\src\\GameManager.cpp",
-              "ViewState": "AgIAALsAAAAAAAAAAAAUwMYAAAAYAAAAAAAAAA==",
+              "ToolTip": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\GameManager.cpp*",
+              "RelativeToolTip": "Breakout\\src\\GameManager.cpp*",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAUwKAAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-09-09T12:07:50.282Z",
               "IsPinned": true,
@@ -251,13 +252,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Ball.cpp",
               "DocumentMoniker": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\Ball.cpp",
               "RelativeDocumentMoniker": "Breakout\\src\\Ball.cpp",
               "ToolTip": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\Ball.cpp",
               "RelativeToolTip": "Breakout\\src\\Ball.cpp",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAAA0AAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-09-09T12:50:27.346Z",
               "EditorCaption": ""
@@ -270,19 +271,19 @@
               "RelativeDocumentMoniker": "Breakout\\src\\Brick.cpp",
               "ToolTip": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\Brick.cpp",
               "RelativeToolTip": "Breakout\\src\\Brick.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-09-09T12:07:56.627Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Player.cpp",
               "DocumentMoniker": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\Player.cpp",
               "RelativeDocumentMoniker": "Breakout\\src\\Player.cpp",
-              "ToolTip": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\Player.cpp*",
-              "RelativeToolTip": "Breakout\\src\\Player.cpp*",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAUwFEAAAAvAAAAAAAAAA==",
+              "ToolTip": "D:\\SAE_Uni\\3Semester\\C\u002B\u002B\\Breakout\\Breakout\\src\\Player.cpp",
+              "RelativeToolTip": "Breakout\\src\\Player.cpp",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAUwFEAAABeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-09-09T12:07:49.035Z",
               "EditorCaption": ""

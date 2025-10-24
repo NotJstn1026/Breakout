@@ -3,12 +3,11 @@
 * File : RectangleGameObject.h
 * Date : 06.10.2025
 * Author : Justin Martin (JM)
-*
-* These coded instructions, statements, and computer programs contain
-* proprietary information of the author and are protected by Federal
-* copyright law. They may not be disclosed to third parties or copied
-* or duplicated in any form, in whole or in part, without the prior
-* written consent of the author.
+* 
+* The RectangleGameObject class is a specialized type of GameObject that represents a rectangular shape in the game. 
+* It inherits from GameObject and adds specific properties for a rectangle's position and size. 
+* The class also provides a ReturnRectangle() method to generate a Raylib Rectangle struct, 
+* which is essential for drawing and collision detection.
 *
 * History:
 * 04.10.25 JM Created
